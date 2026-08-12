@@ -1,0 +1,801 @@
+[
+  {
+    "model_id": "Qwen/Qwen3-ASR-0.6B",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 18.9,
+        "substitutions": 1447,
+        "insertions": 104,
+        "deletions": 407,
+        "ref_words": 10359,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 21.94,
+        "substitutions": 425,
+        "insertions": 32,
+        "deletions": 113,
+        "ref_words": 2598,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 33.28,
+        "substitutions": 304,
+        "insertions": 24,
+        "deletions": 92,
+        "ref_words": 1262,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 14.38
+  },
+  {
+    "model_id": "Qwen/Qwen3-ASR-1.7B",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 14.1,
+        "substitutions": 1077,
+        "insertions": 79,
+        "deletions": 297,
+        "ref_words": 10307,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 14.41,
+        "substitutions": 262,
+        "insertions": 23,
+        "deletions": 87,
+        "ref_words": 2582,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 26.51,
+        "substitutions": 227,
+        "insertions": 22,
+        "deletions": 85,
+        "ref_words": 1260,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 12.41
+  },
+  {
+    "model_id": "aisyah-1.0-flash",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 5.49,
+        "substitutions": 406,
+        "insertions": 55,
+        "deletions": 110,
+        "ref_words": 10403,
+        "empties": 2,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 5.68,
+        "substitutions": 99,
+        "insertions": 18,
+        "deletions": 33,
+        "ref_words": 2639,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 33.07,
+        "substitutions": 199,
+        "insertions": 20,
+        "deletions": 202,
+        "ref_words": 1273,
+        "empties": 11,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 27.58
+  },
+  {
+    "model_id": "aisyah-1.0-pro",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 4.15,
+        "substitutions": 244,
+        "insertions": 51,
+        "deletions": 137,
+        "ref_words": 10404,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 4.81,
+        "substitutions": 73,
+        "insertions": 17,
+        "deletions": 37,
+        "ref_words": 2639,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 11.08,
+        "substitutions": 81,
+        "insertions": 10,
+        "deletions": 50,
+        "ref_words": 1273,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 6.93
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 8.67,
+        "substitutions": 422,
+        "insertions": 210,
+        "deletions": 258,
+        "ref_words": 10265,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 6.47,
+        "substitutions": 94,
+        "insertions": 34,
+        "deletions": 38,
+        "ref_words": 2566,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 17.38,
+        "substitutions": 115,
+        "insertions": 63,
+        "deletions": 41,
+        "ref_words": 1260,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 8.71
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 5.15,
+        "substitutions": 258,
+        "insertions": 47,
+        "deletions": 224,
+        "ref_words": 10269,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 4.13,
+        "substitutions": 50,
+        "insertions": 28,
+        "deletions": 28,
+        "ref_words": 2567,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 8.89,
+        "substitutions": 63,
+        "insertions": 16,
+        "deletions": 33,
+        "ref_words": 1260,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 3.74
+  },
+  {
+    "model_id": "gemini-3.1-pro-preview",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 45.09,
+        "substitutions": 331,
+        "insertions": 4192,
+        "deletions": 124,
+        "ref_words": 10306,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 37.42,
+        "substitutions": 71,
+        "insertions": 851,
+        "deletions": 43,
+        "ref_words": 2579,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 23.11,
+        "substitutions": 86,
+        "insertions": 180,
+        "deletions": 27,
+        "ref_words": 1268,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": -21.98
+  },
+  {
+    "model_id": "gemini-3.6-flash",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 15.34,
+        "substitutions": 509,
+        "insertions": 847,
+        "deletions": 219,
+        "ref_words": 10265,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 11.96,
+        "substitutions": 121,
+        "insertions": 139,
+        "deletions": 47,
+        "ref_words": 2567,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 18.49,
+        "substitutions": 158,
+        "insertions": 24,
+        "deletions": 51,
+        "ref_words": 1260,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 3.15
+  },
+  {
+    "model_id": "ilmu-asr-v4.2",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 6.55,
+        "substitutions": 407,
+        "insertions": 61,
+        "deletions": 211,
+        "ref_words": 10359,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 7.24,
+        "substitutions": 120,
+        "insertions": 19,
+        "deletions": 51,
+        "ref_words": 2624,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 18.97,
+        "substitutions": 174,
+        "insertions": 24,
+        "deletions": 42,
+        "ref_words": 1265,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 12.42
+  },
+  {
+    "model_id": "nova-3",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 24.74,
+        "substitutions": 914,
+        "insertions": 68,
+        "deletions": 1565,
+        "ref_words": 10296,
+        "empties": 74,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 21.21,
+        "substitutions": 206,
+        "insertions": 22,
+        "deletions": 317,
+        "ref_words": 2570,
+        "empties": 11,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 41.75,
+        "substitutions": 197,
+        "insertions": 19,
+        "deletions": 315,
+        "ref_words": 1272,
+        "empties": 16,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 17.01
+  },
+  {
+    "model_id": "openai/whisper-large-v3",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 17.01,
+        "substitutions": 889,
+        "insertions": 470,
+        "deletions": 388,
+        "ref_words": 10268,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 7.6,
+        "substitutions": 106,
+        "insertions": 16,
+        "deletions": 73,
+        "ref_words": 2567,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 20.63,
+        "substitutions": 138,
+        "insertions": 16,
+        "deletions": 106,
+        "ref_words": 1260,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 3.62
+  },
+  {
+    "model_id": "qwen-audio-3.0-asr-flash",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 6.2,
+        "substitutions": 357,
+        "insertions": 74,
+        "deletions": 213,
+        "ref_words": 10384,
+        "empties": 1,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 6.75,
+        "substitutions": 115,
+        "insertions": 16,
+        "deletions": 46,
+        "ref_words": 2623,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 16.46,
+        "substitutions": 120,
+        "insertions": 20,
+        "deletions": 70,
+        "ref_words": 1276,
+        "empties": 1,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 10.26
+  },
+  {
+    "model_id": "qwen3-asr-0.6b-malay-aug-s12000-L0",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 6.17,
+        "substitutions": 393,
+        "insertions": 111,
+        "deletions": 138,
+        "ref_words": 10405,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 7.72,
+        "substitutions": 129,
+        "insertions": 28,
+        "deletions": 47,
+        "ref_words": 2643,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 19.37,
+        "substitutions": 160,
+        "insertions": 33,
+        "deletions": 54,
+        "ref_words": 1275,
+        "empties": 4,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 13.2
+  },
+  {
+    "model_id": "qwen3-asr-0.6b-malay-s12000",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 6.11,
+        "substitutions": 383,
+        "insertions": 108,
+        "deletions": 145,
+        "ref_words": 10405,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 7.57,
+        "substitutions": 136,
+        "insertions": 24,
+        "deletions": 40,
+        "ref_words": 2641,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 18.38,
+        "substitutions": 166,
+        "insertions": 24,
+        "deletions": 44,
+        "ref_words": 1273,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 12.27
+  },
+  {
+    "model_id": "scribe_v2",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 4.18,
+        "substitutions": 254,
+        "insertions": 40,
+        "deletions": 137,
+        "ref_words": 10309,
+        "empties": 0,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 4.35,
+        "substitutions": 61,
+        "insertions": 23,
+        "deletions": 28,
+        "ref_words": 2575,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 10.7,
+        "substitutions": 82,
+        "insertions": 15,
+        "deletions": 38,
+        "ref_words": 1262,
+        "empties": 1,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 6.52
+  },
+  {
+    "model_id": "universal-2",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 14.97,
+        "substitutions": 996,
+        "insertions": 51,
+        "deletions": 490,
+        "ref_words": 10267,
+        "empties": 1,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 9.51,
+        "substitutions": 143,
+        "insertions": 19,
+        "deletions": 82,
+        "ref_words": 2566,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 24.84,
+        "substitutions": 142,
+        "insertions": 15,
+        "deletions": 156,
+        "ref_words": 1260,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 9.87
+  },
+  {
+    "model_id": "universal-3-5-pro",
+    "num_rows": 820,
+    "by_noise": {
+      "clean": {
+        "n": 600,
+        "wer": 14.97,
+        "substitutions": 996,
+        "insertions": 51,
+        "deletions": 490,
+        "ref_words": 10267,
+        "empties": 1,
+        "mean_snr_db": 40.5
+      },
+      "moderate": {
+        "n": 130,
+        "wer": 9.51,
+        "substitutions": 143,
+        "insertions": 19,
+        "deletions": 82,
+        "ref_words": 2566,
+        "empties": 0,
+        "mean_snr_db": 21.2
+      },
+      "noisy": {
+        "n": 90,
+        "wer": 25.08,
+        "substitutions": 144,
+        "insertions": 16,
+        "deletions": 156,
+        "ref_words": 1260,
+        "empties": 0,
+        "mean_snr_db": 9.2
+      },
+      "unknown": {
+        "n": 0,
+        "wer": 0.0,
+        "substitutions": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "ref_words": 0,
+        "empties": 0,
+        "mean_snr_db": null
+      }
+    },
+    "degradation_pp": 10.11
+  }
+]

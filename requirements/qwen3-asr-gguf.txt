@@ -1,0 +1,6 @@
+-r base.txt
+# llama.cpp Python bindings with CUDA. Build with the CUDA toolkit on PATH, e.g.:
+#   PATH=/usr/local/cuda/bin:$PATH CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
+# (a CPU-only `pip install llama-cpp-python` also works, just slower)
+llama-cpp-python>=0.3.34
+resampy>=0.4.2   # optional but recommended for audio resampling

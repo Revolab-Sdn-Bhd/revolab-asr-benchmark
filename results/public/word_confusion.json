@@ -1,0 +1,2372 @@
+{
+  "Qwen/Qwen3-ASR-0.6B": [
+    {
+      "ref": "kanak",
+      "hyp": "kerana",
+      "count": 8
+    },
+    {
+      "ref": "perkhidmatan",
+      "hyp": "perhimpatan",
+      "count": 6
+    },
+    {
+      "ref": "im",
+      "hyp": "am",
+      "count": 6
+    },
+    {
+      "ref": "perniagaan",
+      "hyp": "penyegaan",
+      "count": 5
+    },
+    {
+      "ref": "yang",
+      "hyp": "nya",
+      "count": 5
+    },
+    {
+      "ref": "apa",
+      "hyp": "pun",
+      "count": 5
+    },
+    {
+      "ref": "i",
+      "hyp": "ay",
+      "count": 5
+    },
+    {
+      "ref": "to",
+      "hyp": "untuk",
+      "count": 5
+    },
+    {
+      "ref": "tiada",
+      "hyp": "tidak",
+      "count": 4
+    },
+    {
+      "ref": "mana",
+      "hyp": "dimana",
+      "count": 4
+    },
+    {
+      "ref": "cara",
+      "hyp": "cari",
+      "count": 4
+    },
+    {
+      "ref": "perdagangan",
+      "hyp": "pedagangan",
+      "count": 3
+    },
+    {
+      "ref": "i",
+      "hyp": "ayah",
+      "count": 3
+    },
+    {
+      "ref": "ramlee",
+      "hyp": "piramli",
+      "count": 3
+    },
+    {
+      "ref": "kereta",
+      "hyp": "tetik",
+      "count": 3
+    },
+    {
+      "ref": "negeri",
+      "hyp": "negara",
+      "count": 3
+    },
+    {
+      "ref": "makan",
+      "hyp": "maka",
+      "count": 3
+    },
+    {
+      "ref": "manik",
+      "hyp": "warna",
+      "count": 3
+    },
+    {
+      "ref": "sekarang",
+      "hyp": "kang",
+      "count": 3
+    },
+    {
+      "ref": "ya",
+      "hyp": "ia",
+      "count": 3
+    },
+    {
+      "ref": "allahyarham",
+      "hyp": "ham",
+      "count": 3
+    },
+    {
+      "ref": "m",
+      "hyp": "sprm",
+      "count": 3
+    },
+    {
+      "ref": "tanya",
+      "hyp": "nya",
+      "count": 3
+    },
+    {
+      "ref": "nya",
+      "hyp": "ini",
+      "count": 3
+    },
+    {
+      "ref": "sesebuah",
+      "hyp": "sebuah",
+      "count": 3
+    },
+    {
+      "ref": "lelaki",
+      "hyp": "laki",
+      "count": 3
+    },
+    {
+      "ref": "bimbit",
+      "hyp": "mimbet",
+      "count": 3
+    },
+    {
+      "ref": "kat",
+      "hyp": "ke",
+      "count": 3
+    },
+    {
+      "ref": "dah",
+      "hyp": "ada",
+      "count": 3
+    },
+    {
+      "ref": "kubur",
+      "hyp": "kupu",
+      "count": 3
+    },
+    {
+      "ref": "daripada",
+      "hyp": "pade",
+      "count": 2
+    },
+    {
+      "ref": "sesiapa",
+      "hyp": "siapa",
+      "count": 2
+    },
+    {
+      "ref": "daripada",
+      "hyp": "dari",
+      "count": 2
+    },
+    {
+      "ref": "daripada",
+      "hyp": "dapat",
+      "count": 2
+    },
+    {
+      "ref": "tiada",
+      "hyp": "ada",
+      "count": 2
+    },
+    {
+      "ref": "bagi",
+      "hyp": "pagi",
+      "count": 2
+    },
+    {
+      "ref": "bab",
+      "hyp": "bakti",
+      "count": 2
+    },
+    {
+      "ref": "e",
+      "hyp": "i",
+      "count": 2
+    },
+    {
+      "ref": "siminoff",
+      "hyp": "siminov",
+      "count": 2
+    },
+    {
+      "ref": "main",
+      "hyp": "didimain",
+      "count": 2
+    },
+    {
+      "ref": "cara",
+      "hyp": "hari",
+      "count": 2
+    },
+    {
+      "ref": "macam",
+      "hyp": "cuma",
+      "count": 2
+    },
+    {
+      "ref": "mula",
+      "hyp": "mulu",
+      "count": 2
+    },
+    {
+      "ref": "nak",
+      "hyp": "ada",
+      "count": 2
+    },
+    {
+      "ref": "kad",
+      "hyp": "kaya",
+      "count": 2
+    },
+    {
+      "ref": "you",
+      "hyp": "dan",
+      "count": 2
+    },
+    {
+      "ref": "kes",
+      "hyp": "kis",
+      "count": 2
+    },
+    {
+      "ref": "langkah",
+      "hyp": "langgan",
+      "count": 2
+    },
+    {
+      "ref": "kerjaya",
+      "hyp": "kerjaaya",
+      "count": 2
+    },
+    {
+      "ref": "mereka",
+      "hyp": "amerika",
+      "count": 2
+    },
+    {
+      "ref": "memanggil",
+      "hyp": "memaget",
+      "count": 2
+    },
+    {
+      "ref": "rakan",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "persediaan",
+      "hyp": "pencegahan",
+      "count": 2
+    },
+    {
+      "ref": "bilik",
+      "hyp": "bili",
+      "count": 2
+    },
+    {
+      "ref": "beaded",
+      "hyp": "bead",
+      "count": 2
+    },
+    {
+      "ref": "snyder",
+      "hyp": "schneider",
+      "count": 2
+    },
+    {
+      "ref": "diacukan",
+      "hyp": "acukan",
+      "count": 2
+    },
+    {
+      "ref": "haji",
+      "hyp": "naji",
+      "count": 2
+    },
+    {
+      "ref": "rumput",
+      "hyp": "kumpul",
+      "count": 2
+    },
+    {
+      "ref": "pindaan",
+      "hyp": "pindahan",
+      "count": 2
+    },
+    {
+      "ref": "kes",
+      "hyp": "kas",
+      "count": 2
+    },
+    {
+      "ref": "tiada",
+      "hyp": "tadi",
+      "count": 2
+    },
+    {
+      "ref": "kereta",
+      "hyp": "krater",
+      "count": 2
+    },
+    {
+      "ref": "wakil",
+      "hyp": "waktu",
+      "count": 2
+    },
+    {
+      "ref": "daripada",
+      "hyp": "pada",
+      "count": 2
+    },
+    {
+      "ref": "esok",
+      "hyp": "isu",
+      "count": 2
+    },
+    {
+      "ref": "cakap",
+      "hyp": "jaga",
+      "count": 2
+    },
+    {
+      "ref": "fight",
+      "hyp": "file",
+      "count": 2
+    },
+    {
+      "ref": "kadangkala",
+      "hyp": "kadang",
+      "count": 2
+    },
+    {
+      "ref": "seharian",
+      "hyp": "hari",
+      "count": 2
+    },
+    {
+      "ref": "itu",
+      "hyp": "doh",
+      "count": 2
+    },
+    {
+      "ref": "bayar",
+      "hyp": "gnebaya",
+      "count": 2
+    },
+    {
+      "ref": "kanak",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "pertolongan",
+      "hyp": "petualangan",
+      "count": 2
+    },
+    {
+      "ref": "malaysia",
+      "hyp": "machine",
+      "count": 2
+    },
+    {
+      "ref": "perniagaan",
+      "hyp": "penegakan",
+      "count": 2
+    },
+    {
+      "ref": "ana",
+      "hyp": "anna",
+      "count": 2
+    },
+    {
+      "ref": "ini",
+      "hyp": "nya",
+      "count": 2
+    },
+    {
+      "ref": "jumaat",
+      "hyp": "jumat",
+      "count": 2
+    },
+    {
+      "ref": "pensyarah",
+      "hyp": "pihak",
+      "count": 2
+    },
+    {
+      "ref": "syarikat",
+      "hyp": "kat",
+      "count": 2
+    },
+    {
+      "ref": "a",
+      "hyp": "the",
+      "count": 2
+    },
+    {
+      "ref": "dijangka",
+      "hyp": "dijangkar",
+      "count": 2
+    },
+    {
+      "ref": "perniagaan",
+      "hyp": "penyegaran",
+      "count": 2
+    },
+    {
+      "ref": "12",
+      "hyp": "belas",
+      "count": 2
+    },
+    {
+      "ref": "pergi",
+      "hyp": "bagi",
+      "count": 2
+    },
+    {
+      "ref": "rasmi",
+      "hyp": "resmi",
+      "count": 2
+    },
+    {
+      "ref": "budaya",
+      "hyp": "putaya",
+      "count": 2
+    },
+    {
+      "ref": "menyesuaikan",
+      "hyp": "menyewaikan",
+      "count": 2
+    },
+    {
+      "ref": "sukar",
+      "hyp": "suka",
+      "count": 2
+    },
+    {
+      "ref": "pelancong",
+      "hyp": "perlonchong",
+      "count": 2
+    },
+    {
+      "ref": "kau",
+      "hyp": "kok",
+      "count": 2
+    },
+    {
+      "ref": "perkhidmatan",
+      "hyp": "pehematan",
+      "count": 2
+    },
+    {
+      "ref": "bagaimanakah",
+      "hyp": "bagaimana",
+      "count": 2
+    },
+    {
+      "ref": "badminton",
+      "hyp": "ten",
+      "count": 2
+    },
+    {
+      "ref": "menelefon",
+      "hyp": "menelpon",
+      "count": 2
+    },
+    {
+      "ref": "kenderaan",
+      "hyp": "kendaraan",
+      "count": 2
+    },
+    {
+      "ref": "detik",
+      "hyp": "date",
+      "count": 2
+    },
+    {
+      "ref": "servis",
+      "hyp": "sebis",
+      "count": 2
+    },
+    {
+      "ref": "dia",
+      "hyp": "ada",
+      "count": 2
+    }
+  ],
+  "Qwen/Qwen3-ASR-1.7B": [
+    {
+      "ref": "i",
+      "hyp": "saya",
+      "count": 10
+    },
+    {
+      "ref": "i",
+      "hyp": "aku",
+      "count": 5
+    },
+    {
+      "ref": "i",
+      "hyp": "ay",
+      "count": 5
+    },
+    {
+      "ref": "apa",
+      "hyp": "pun",
+      "count": 4
+    },
+    {
+      "ref": "perniagaan",
+      "hyp": "peniagaan",
+      "count": 4
+    },
+    {
+      "ref": "i",
+      "hyp": "ayah",
+      "count": 4
+    },
+    {
+      "ref": "kanak",
+      "hyp": "kena",
+      "count": 4
+    },
+    {
+      "ref": "cerita",
+      "hyp": "cita",
+      "count": 3
+    },
+    {
+      "ref": "nya",
+      "hyp": "ini",
+      "count": 3
+    },
+    {
+      "ref": "kereta",
+      "hyp": "kita",
+      "count": 3
+    },
+    {
+      "ref": "kerajaan",
+      "hyp": "kajian",
+      "count": 3
+    },
+    {
+      "ref": "yang",
+      "hyp": "nya",
+      "count": 3
+    },
+    {
+      "ref": "manik",
+      "hyp": "mana",
+      "count": 3
+    },
+    {
+      "ref": "seharian",
+      "hyp": "hari",
+      "count": 3
+    },
+    {
+      "ref": "sesebuah",
+      "hyp": "sesuatu",
+      "count": 3
+    },
+    {
+      "ref": "pertua",
+      "hyp": "petua",
+      "count": 3
+    },
+    {
+      "ref": "lobak",
+      "hyp": "loba",
+      "count": 3
+    },
+    {
+      "ref": "cara",
+      "hyp": "cari",
+      "count": 3
+    },
+    {
+      "ref": "almost",
+      "hyp": "hampir",
+      "count": 2
+    },
+    {
+      "ref": "bagi",
+      "hyp": "pergi",
+      "count": 2
+    },
+    {
+      "ref": "bapa",
+      "hyp": "apa",
+      "count": 2
+    },
+    {
+      "ref": "rancangan",
+      "hyp": "penerancang",
+      "count": 2
+    },
+    {
+      "ref": "cara",
+      "hyp": "hari",
+      "count": 2
+    },
+    {
+      "ref": "kadangkala",
+      "hyp": "kala",
+      "count": 2
+    },
+    {
+      "ref": "diorang",
+      "hyp": "orang",
+      "count": 2
+    },
+    {
+      "ref": "kad",
+      "hyp": "kait",
+      "count": 2
+    },
+    {
+      "ref": "ramlee",
+      "hyp": "piramli",
+      "count": 2
+    },
+    {
+      "ref": "langkah",
+      "hyp": "langgan",
+      "count": 2
+    },
+    {
+      "ref": "dik",
+      "hyp": "di",
+      "count": 2
+    },
+    {
+      "ref": "lain",
+      "hyp": "lelai",
+      "count": 2
+    },
+    {
+      "ref": "sejawat",
+      "hyp": "sejauh",
+      "count": 2
+    },
+    {
+      "ref": "rakan",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "beaded",
+      "hyp": "bidet",
+      "count": 2
+    },
+    {
+      "ref": "warna",
+      "hyp": "mana",
+      "count": 2
+    },
+    {
+      "ref": "snyder",
+      "hyp": "schneider",
+      "count": 2
+    },
+    {
+      "ref": "rumput",
+      "hyp": "kumpul",
+      "count": 2
+    },
+    {
+      "ref": "but",
+      "hyp": "boot",
+      "count": 2
+    },
+    {
+      "ref": "wakil",
+      "hyp": "waktu",
+      "count": 2
+    },
+    {
+      "ref": "fight",
+      "hyp": "file",
+      "count": 2
+    },
+    {
+      "ref": "macam",
+      "hyp": "cang",
+      "count": 2
+    },
+    {
+      "ref": "perkhidmatan",
+      "hyp": "perhimpunan",
+      "count": 2
+    },
+    {
+      "ref": "malaysia",
+      "hyp": "mesiu",
+      "count": 2
+    },
+    {
+      "ref": "perniagaan",
+      "hyp": "penegakan",
+      "count": 2
+    },
+    {
+      "ref": "ana",
+      "hyp": "anna",
+      "count": 2
+    },
+    {
+      "ref": "ini",
+      "hyp": "nya",
+      "count": 2
+    },
+    {
+      "ref": "around",
+      "hyp": "sekitar",
+      "count": 2
+    },
+    {
+      "ref": "pensyarah",
+      "hyp": "pesara",
+      "count": 2
+    },
+    {
+      "ref": "serata",
+      "hyp": "seluruh",
+      "count": 2
+    },
+    {
+      "ref": "budaya",
+      "hyp": "putera",
+      "count": 2
+    },
+    {
+      "ref": "banyak",
+      "hyp": "benda",
+      "count": 2
+    },
+    {
+      "ref": "badminton",
+      "hyp": "bintang",
+      "count": 2
+    },
+    {
+      "ref": "me",
+      "hyp": "anda",
+      "count": 2
+    },
+    {
+      "ref": "flop",
+      "hyp": "flo",
+      "count": 2
+    },
+    {
+      "ref": "saya",
+      "hyp": "perasaan",
+      "count": 2
+    },
+    {
+      "ref": "kat",
+      "hyp": "di",
+      "count": 2
+    },
+    {
+      "ref": "tiada",
+      "hyp": "tak",
+      "count": 2
+    },
+    {
+      "ref": "tvet",
+      "hyp": "tibet",
+      "count": 2
+    },
+    {
+      "ref": "bercuti",
+      "hyp": "libur",
+      "count": 2
+    },
+    {
+      "ref": "wajar",
+      "hyp": "wajah",
+      "count": 2
+    },
+    {
+      "ref": "untuk",
+      "hyp": "to",
+      "count": 2
+    },
+    {
+      "ref": "tariffs",
+      "hyp": "balas",
+      "count": 2
+    },
+    {
+      "ref": "retaliatory",
+      "hyp": "tarif",
+      "count": 2
+    },
+    {
+      "ref": "jumpa",
+      "hyp": "jumpet",
+      "count": 2
+    },
+    {
+      "ref": "inflation",
+      "hyp": "dan",
+      "count": 2
+    },
+    {
+      "ref": "berjalan",
+      "hyp": "perjalanan",
+      "count": 2
+    },
+    {
+      "ref": "maria",
+      "hyp": "mari",
+      "count": 2
+    },
+    {
+      "ref": "puluh",
+      "hyp": "buruk",
+      "count": 2
+    },
+    {
+      "ref": "dua",
+      "hyp": "di",
+      "count": 2
+    },
+    {
+      "ref": "pasal",
+      "hyp": "apa",
+      "count": 2
+    },
+    {
+      "ref": "nak",
+      "hyp": "tak",
+      "count": 2
+    },
+    {
+      "ref": "amboi",
+      "hyp": "aboi",
+      "count": 2
+    },
+    {
+      "ref": "dia",
+      "hyp": "ada",
+      "count": 2
+    },
+    {
+      "ref": "tuan",
+      "hyp": "sanadatuan",
+      "count": 2
+    },
+    {
+      "ref": "senator",
+      "hyp": "hormat",
+      "count": 2
+    },
+    {
+      "ref": "berhormat",
+      "hyp": "bahu",
+      "count": 2
+    },
+    {
+      "ref": "kepada",
+      "hyp": "pada",
+      "count": 2
+    },
+    {
+      "ref": "ribut",
+      "hyp": "reput",
+      "count": 2
+    },
+    {
+      "ref": "kubur",
+      "hyp": "kupu",
+      "count": 2
+    },
+    {
+      "ref": "rupa",
+      "hyp": "baru",
+      "count": 2
+    },
+    {
+      "ref": "tiada",
+      "hyp": "tiara",
+      "count": 2
+    },
+    {
+      "ref": "perkhidmatan",
+      "hyp": "pemahaman",
+      "count": 2
+    },
+    {
+      "ref": "syarat",
+      "hyp": "cara",
+      "count": 2
+    },
+    {
+      "ref": "askar",
+      "hyp": "aska",
+      "count": 2
+    },
+    {
+      "ref": "kejar",
+      "hyp": "kerja",
+      "count": 2
+    },
+    {
+      "ref": "ahli",
+      "hyp": "ali",
+      "count": 2
+    },
+    {
+      "ref": "kadangkala",
+      "hyp": "kadang",
+      "count": 2
+    }
+  ],
+  "Revolab/Malaysian-Qwen3-ASR-1.7B": [
+    {
+      "ref": "i",
+      "hyp": "ay",
+      "count": 5
+    },
+    {
+      "ref": "kereta",
+      "hyp": "kita",
+      "count": 3
+    },
+    {
+      "ref": "belas",
+      "hyp": "ratus",
+      "count": 2
+    },
+    {
+      "ref": "siminoff",
+      "hyp": "seminov",
+      "count": 2
+    },
+    {
+      "ref": "kelima",
+      "hyp": "lima",
+      "count": 2
+    },
+    {
+      "ref": "kad",
+      "hyp": "kat",
+      "count": 2
+    },
+    {
+      "ref": "teng",
+      "hyp": "ting",
+      "count": 2
+    },
+    {
+      "ref": "memanggil",
+      "hyp": "membagi",
+      "count": 2
+    },
+    {
+      "ref": "rakan",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "scroll",
+      "hyp": "suka",
+      "count": 2
+    },
+    {
+      "ref": "buruj",
+      "hyp": "buru",
+      "count": 2
+    },
+    {
+      "ref": "aku",
+      "hyp": "apa",
+      "count": 2
+    },
+    {
+      "ref": "but",
+      "hyp": "bot",
+      "count": 2
+    },
+    {
+      "ref": "nabila",
+      "hyp": "nabilah",
+      "count": 2
+    },
+    {
+      "ref": "find",
+      "hyp": "banyak",
+      "count": 2
+    },
+    {
+      "ref": "kanta",
+      "hyp": "kantar",
+      "count": 2
+    },
+    {
+      "ref": "g",
+      "hyp": "cg",
+      "count": 2
+    },
+    {
+      "ref": "c",
+      "hyp": "png",
+      "count": 2
+    },
+    {
+      "ref": "wajar",
+      "hyp": "wajah",
+      "count": 2
+    },
+    {
+      "ref": "self",
+      "hyp": "south",
+      "count": 2
+    },
+    {
+      "ref": "ribut",
+      "hyp": "reput",
+      "count": 2
+    }
+  ],
+  "gemini-2.5-flash": [
+    {
+      "ref": "diorang",
+      "hyp": "orang",
+      "count": 3
+    },
+    {
+      "ref": "kereta",
+      "hyp": "remote",
+      "count": 3
+    },
+    {
+      "ref": "korang",
+      "hyp": "orang",
+      "count": 3
+    },
+    {
+      "ref": "makcik",
+      "hyp": "cik",
+      "count": 3
+    },
+    {
+      "ref": "mami",
+      "hyp": "mummy",
+      "count": 3
+    },
+    {
+      "ref": "pohon",
+      "hyp": "pokok",
+      "count": 3
+    },
+    {
+      "ref": "sejam",
+      "hyp": "kmjam",
+      "count": 2
+    },
+    {
+      "ref": "saya",
+      "hyp": "baik",
+      "count": 2
+    },
+    {
+      "ref": "but",
+      "hyp": "boot",
+      "count": 2
+    },
+    {
+      "ref": "hundred",
+      "hyp": "dua",
+      "count": 2
+    },
+    {
+      "ref": "flop",
+      "hyp": "flo",
+      "count": 2
+    },
+    {
+      "ref": "agar",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "mel",
+      "hyp": "my",
+      "count": 2
+    },
+    {
+      "ref": "self",
+      "hyp": "south",
+      "count": 2
+    },
+    {
+      "ref": "dah",
+      "hyp": "tak",
+      "count": 2
+    },
+    {
+      "ref": "kadangkala",
+      "hyp": "nya",
+      "count": 2
+    }
+  ],
+  "gemini-2.5-pro": [
+    {
+      "ref": "korang",
+      "hyp": "orang",
+      "count": 7
+    },
+    {
+      "ref": "makcik",
+      "hyp": "cik",
+      "count": 4
+    },
+    {
+      "ref": "diorang",
+      "hyp": "orang",
+      "count": 3
+    },
+    {
+      "ref": "km",
+      "hyp": "kilometer",
+      "count": 3
+    },
+    {
+      "ref": "nya",
+      "hyp": "ini",
+      "count": 2
+    },
+    {
+      "ref": "day",
+      "hyp": "hari",
+      "count": 2
+    },
+    {
+      "ref": "teng",
+      "hyp": "ting",
+      "count": 2
+    },
+    {
+      "ref": "hopiti",
+      "hyp": "hoppity",
+      "count": 2
+    },
+    {
+      "ref": "snyder",
+      "hyp": "schneider",
+      "count": 2
+    },
+    {
+      "ref": "find",
+      "hyp": "quite",
+      "count": 2
+    },
+    {
+      "ref": "puan",
+      "hyp": "tuan",
+      "count": 2
+    }
+  ],
+  "nova-3": [
+    {
+      "ref": "bimbit",
+      "hyp": "bybit",
+      "count": 12
+    },
+    {
+      "ref": "kanak",
+      "hyp": "kanakkanak",
+      "count": 9
+    },
+    {
+      "ref": "anak",
+      "hyp": "anakanak",
+      "count": 8
+    },
+    {
+      "ref": "apa",
+      "hyp": "apaapa",
+      "count": 6
+    },
+    {
+      "ref": "mana",
+      "hyp": "dimana",
+      "count": 5
+    },
+    {
+      "ref": "bing",
+      "hyp": "being",
+      "count": 5
+    },
+    {
+      "ref": "undang",
+      "hyp": "undangundang",
+      "count": 4
+    },
+    {
+      "ref": "mana",
+      "hyp": "manamana",
+      "count": 4
+    },
+    {
+      "ref": "negara",
+      "hyp": "negaranegara",
+      "count": 4
+    },
+    {
+      "ref": "kira",
+      "hyp": "kirakira",
+      "count": 4
+    },
+    {
+      "ref": "hayashi",
+      "hyp": "hayat",
+      "count": 3
+    },
+    {
+      "ref": "kad",
+      "hyp": "cut",
+      "count": 3
+    },
+    {
+      "ref": "pengajian",
+      "hyp": "pengajaran",
+      "count": 3
+    },
+    {
+      "ref": "orang",
+      "hyp": "orangorang",
+      "count": 3
+    },
+    {
+      "ref": "kereta",
+      "hyp": "data",
+      "count": 3
+    },
+    {
+      "ref": "suspek",
+      "hyp": "opec",
+      "count": 3
+    },
+    {
+      "ref": "tingkap",
+      "hyp": "tingkat",
+      "count": 3
+    },
+    {
+      "ref": "pelajari",
+      "hyp": "necessary",
+      "count": 3
+    },
+    {
+      "ref": "kurang",
+      "hyp": "sekurangkurang",
+      "count": 3
+    },
+    {
+      "ref": "climate",
+      "hyp": "limauate",
+      "count": 3
+    },
+    {
+      "ref": "countries",
+      "hyp": "country",
+      "count": 3
+    },
+    {
+      "ref": "berhormat",
+      "hyp": "hormat",
+      "count": 3
+    },
+    {
+      "ref": "percutian",
+      "hyp": "perhatian",
+      "count": 2
+    },
+    {
+      "ref": "di",
+      "hyp": "aku",
+      "count": 2
+    },
+    {
+      "ref": "elektrikal",
+      "hyp": "elektrik",
+      "count": 2
+    },
+    {
+      "ref": "arts",
+      "hyp": "lrt",
+      "count": 2
+    },
+    {
+      "ref": "also",
+      "hyp": "juga",
+      "count": 2
+    },
+    {
+      "ref": "kadang",
+      "hyp": "kadangkadang",
+      "count": 2
+    },
+    {
+      "ref": "kilometer",
+      "hyp": "km",
+      "count": 2
+    },
+    {
+      "ref": "bertanyakan",
+      "hyp": "nya",
+      "count": 2
+    },
+    {
+      "ref": "waste",
+      "hyp": "ewest",
+      "count": 2
+    },
+    {
+      "ref": "siminoff",
+      "hyp": "slimenov",
+      "count": 2
+    },
+    {
+      "ref": "kawan",
+      "hyp": "kawankawan",
+      "count": 2
+    },
+    {
+      "ref": "mula",
+      "hyp": "mulamula",
+      "count": 2
+    },
+    {
+      "ref": "tandas",
+      "hyp": "tanda",
+      "count": 2
+    },
+    {
+      "ref": "penjelajah",
+      "hyp": "menjelajah",
+      "count": 2
+    },
+    {
+      "ref": "belas",
+      "hyp": "ke15",
+      "count": 2
+    },
+    {
+      "ref": "nya",
+      "hyp": "ini",
+      "count": 2
+    },
+    {
+      "ref": "why",
+      "hyp": "y",
+      "count": 2
+    },
+    {
+      "ref": "ramlee",
+      "hyp": "ramlili",
+      "count": 2
+    },
+    {
+      "ref": "artis",
+      "hyp": "lrtis",
+      "count": 2
+    },
+    {
+      "ref": "sejawat",
+      "hyp": "secarawat",
+      "count": 2
+    },
+    {
+      "ref": "rakan",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "tempat",
+      "hyp": "tempattempat",
+      "count": 2
+    },
+    {
+      "ref": "titanium",
+      "hyp": "daribitanum",
+      "count": 2
+    },
+    {
+      "ref": "snyder",
+      "hyp": "sneijder",
+      "count": 2
+    },
+    {
+      "ref": "uka",
+      "hyp": "tukar",
+      "count": 2
+    },
+    {
+      "ref": "perolehan",
+      "hyp": "peralihan",
+      "count": 2
+    },
+    {
+      "ref": "dibacakan",
+      "hyp": "dibawakan",
+      "count": 2
+    },
+    {
+      "ref": "berkumpulan",
+      "hyp": "berkumpul",
+      "count": 2
+    },
+    {
+      "ref": "but",
+      "hyp": "bot",
+      "count": 2
+    },
+    {
+      "ref": "nak",
+      "hyp": "pernah",
+      "count": 2
+    },
+    {
+      "ref": "orang",
+      "hyp": "diorang",
+      "count": 2
+    },
+    {
+      "ref": "kucing",
+      "hyp": "kucingkucing",
+      "count": 2
+    },
+    {
+      "ref": "haiwan",
+      "hyp": "haiwanhaiwan",
+      "count": 2
+    },
+    {
+      "ref": "sanskrit",
+      "hyp": "sanskrip",
+      "count": 2
+    },
+    {
+      "ref": "kau",
+      "hyp": "tak",
+      "count": 2
+    },
+    {
+      "ref": "ipt",
+      "hyp": "mrtt",
+      "count": 2
+    },
+    {
+      "ref": "vehicles",
+      "hyp": "vechles",
+      "count": 2
+    },
+    {
+      "ref": "been",
+      "hyp": "bin",
+      "count": 2
+    },
+    {
+      "ref": "saiz",
+      "hyp": "sains",
+      "count": 2
+    },
+    {
+      "ref": "origami",
+      "hyp": "jürgenami",
+      "count": 2
+    },
+    {
+      "ref": "ana",
+      "hyp": "anak",
+      "count": 2
+    },
+    {
+      "ref": "kecilan",
+      "hyp": "kecilkecilan",
+      "count": 2
+    },
+    {
+      "ref": "ditutur",
+      "hyp": "ditutor",
+      "count": 2
+    },
+    {
+      "ref": "kanta",
+      "hyp": "kaunter",
+      "count": 2
+    },
+    {
+      "ref": "lapang",
+      "hyp": "lapan",
+      "count": 2
+    },
+    {
+      "ref": "idea",
+      "hyp": "dia",
+      "count": 2
+    },
+    {
+      "ref": "largest",
+      "hyp": "lagest",
+      "count": 2
+    },
+    {
+      "ref": "serata",
+      "hyp": "serta",
+      "count": 2
+    },
+    {
+      "ref": "badminton",
+      "hyp": "bintang",
+      "count": 2
+    },
+    {
+      "ref": "sprm",
+      "hyp": "spm",
+      "count": 2
+    },
+    {
+      "ref": "detik",
+      "hyp": "adraticdetik",
+      "count": 2
+    },
+    {
+      "ref": "png",
+      "hyp": "pg",
+      "count": 2
+    },
+    {
+      "ref": "kokoda",
+      "hyp": "kota",
+      "count": 2
+    },
+    {
+      "ref": "percubaan",
+      "hyp": "perbezaan",
+      "count": 2
+    },
+    {
+      "ref": "otter",
+      "hyp": "author",
+      "count": 2
+    },
+    {
+      "ref": "tvet",
+      "hyp": "tibet",
+      "count": 2
+    },
+    {
+      "ref": "beta",
+      "hyp": "beza",
+      "count": 2
+    },
+    {
+      "ref": "pendinding",
+      "hyp": "peningpening",
+      "count": 2
+    },
+    {
+      "ref": "rakan",
+      "hyp": "rakanrakan",
+      "count": 2
+    },
+    {
+      "ref": "tari",
+      "hyp": "teres",
+      "count": 2
+    },
+    {
+      "ref": "sukai",
+      "hyp": "sukar",
+      "count": 2
+    },
+    {
+      "ref": "tariffs",
+      "hyp": "tarif",
+      "count": 2
+    },
+    {
+      "ref": "penguasa",
+      "hyp": "pengasas",
+      "count": 2
+    },
+    {
+      "ref": "dianugerahkan",
+      "hyp": "sukakan",
+      "count": 2
+    },
+    {
+      "ref": "makcik",
+      "hyp": "cik",
+      "count": 2
+    },
+    {
+      "ref": "perasaan",
+      "hyp": "perasan",
+      "count": 2
+    },
+    {
+      "ref": "nilai",
+      "hyp": "nilainilai",
+      "count": 2
+    },
+    {
+      "ref": "filem",
+      "hyp": "filemfilem",
+      "count": 2
+    },
+    {
+      "ref": "pohon",
+      "hyp": "pun",
+      "count": 2
+    },
+    {
+      "ref": "developing",
+      "hyp": "developer",
+      "count": 2
+    },
+    {
+      "ref": "self",
+      "hyp": "yourself",
+      "count": 2
+    },
+    {
+      "ref": "atlantik",
+      "hyp": "dilantik",
+      "count": 2
+    },
+    {
+      "ref": "ribut",
+      "hyp": "riput",
+      "count": 2
+    },
+    {
+      "ref": "kubur",
+      "hyp": "kufur",
+      "count": 2
+    },
+    {
+      "ref": "askar",
+      "hyp": "ask",
+      "count": 2
+    },
+    {
+      "ref": "damia",
+      "hyp": "umno",
+      "count": 2
+    }
+  ],
+  "openai/whisper-large-v3": [
+    {
+      "ref": "i",
+      "hyp": "saya",
+      "count": 16
+    },
+    {
+      "ref": "you",
+      "hyp": "awak",
+      "count": 6
+    },
+    {
+      "ref": "to",
+      "hyp": "untuk",
+      "count": 4
+    },
+    {
+      "ref": "elektrikal",
+      "hyp": "elektrik",
+      "count": 2
+    },
+    {
+      "ref": "me",
+      "hyp": "saya",
+      "count": 2
+    },
+    {
+      "ref": "hear",
+      "hyp": "dengar",
+      "count": 2
+    },
+    {
+      "ref": "i",
+      "hyp": "untuk",
+      "count": 2
+    },
+    {
+      "ref": "terlampau",
+      "hyp": "terlalu",
+      "count": 2
+    },
+    {
+      "ref": "siminoff",
+      "hyp": "siminov",
+      "count": 2
+    },
+    {
+      "ref": "my",
+      "hyp": "nombor",
+      "count": 2
+    },
+    {
+      "ref": "what",
+      "hyp": "apa",
+      "count": 2
+    },
+    {
+      "ref": "can",
+      "hyp": "dapat",
+      "count": 2
+    },
+    {
+      "ref": "we",
+      "hyp": "kita",
+      "count": 2
+    },
+    {
+      "ref": "day",
+      "hyp": "hari",
+      "count": 2
+    },
+    {
+      "ref": "you",
+      "hyp": "tidak",
+      "count": 2
+    },
+    {
+      "ref": "very",
+      "hyp": "sangat",
+      "count": 2
+    },
+    {
+      "ref": "on",
+      "hyp": "yang",
+      "count": 2
+    },
+    {
+      "ref": "kan",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "kad",
+      "hyp": "kart",
+      "count": 2
+    },
+    {
+      "ref": "ramlee",
+      "hyp": "piramli",
+      "count": 2
+    },
+    {
+      "ref": "dont",
+      "hyp": "tidak",
+      "count": 2
+    },
+    {
+      "ref": "memanggil",
+      "hyp": "membagi",
+      "count": 2
+    },
+    {
+      "ref": "rakan",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "scroll",
+      "hyp": "school",
+      "count": 2
+    },
+    {
+      "ref": "but",
+      "hyp": "bot",
+      "count": 2
+    },
+    {
+      "ref": "of",
+      "hyp": "tahun",
+      "count": 2
+    },
+    {
+      "ref": "the",
+      "hyp": "pada",
+      "count": 2
+    },
+    {
+      "ref": "in",
+      "hyp": "di",
+      "count": 2
+    },
+    {
+      "ref": "muhammad",
+      "hyp": "mohd",
+      "count": 2
+    },
+    {
+      "ref": "find",
+      "hyp": "kuah",
+      "count": 2
+    },
+    {
+      "ref": "kanta",
+      "hyp": "kantar",
+      "count": 2
+    },
+    {
+      "ref": "you",
+      "hyp": "anda",
+      "count": 2
+    },
+    {
+      "ref": "kesahihan",
+      "hyp": "kesahian",
+      "count": 2
+    },
+    {
+      "ref": "meraikan",
+      "hyp": "meraihkan",
+      "count": 2
+    },
+    {
+      "ref": "time",
+      "hyp": "masa",
+      "count": 2
+    },
+    {
+      "ref": "tvet",
+      "hyp": "tibet",
+      "count": 2
+    },
+    {
+      "ref": "cik",
+      "hyp": "encik",
+      "count": 2
+    },
+    {
+      "ref": "have",
+      "hyp": "mempunyai",
+      "count": 2
+    },
+    {
+      "ref": "to",
+      "hyp": "negara",
+      "count": 2
+    },
+    {
+      "ref": "but",
+      "hyp": "tapi",
+      "count": 2
+    }
+  ],
+  "revolab-zipformer-ms-telephony": [
+    {
+      "ref": "belas",
+      "hyp": "ratus",
+      "count": 4
+    },
+    {
+      "ref": "seven",
+      "hyp": "tujuh",
+      "count": 3
+    },
+    {
+      "ref": "arts",
+      "hyp": "us",
+      "count": 2
+    },
+    {
+      "ref": "shark",
+      "hyp": "sharp",
+      "count": 2
+    },
+    {
+      "ref": "siminoff",
+      "hyp": "siminov",
+      "count": 2
+    },
+    {
+      "ref": "gama",
+      "hyp": "dagama",
+      "count": 2
+    },
+    {
+      "ref": "kelima",
+      "hyp": "lima",
+      "count": 2
+    },
+    {
+      "ref": "why",
+      "hyp": "y",
+      "count": 2
+    },
+    {
+      "ref": "control",
+      "hyp": "saya",
+      "count": 2
+    },
+    {
+      "ref": "rakan",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "ensefalitis",
+      "hyp": "ancallitis",
+      "count": 2
+    },
+    {
+      "ref": "scroll",
+      "hyp": "suka",
+      "count": 2
+    },
+    {
+      "ref": "snyder",
+      "hyp": "sneider",
+      "count": 2
+    },
+    {
+      "ref": "but",
+      "hyp": "bot",
+      "count": 2
+    },
+    {
+      "ref": "twenty",
+      "hyp": "dua",
+      "count": 2
+    },
+    {
+      "ref": "cam",
+      "hyp": "macam",
+      "count": 2
+    },
+    {
+      "ref": "12",
+      "hyp": "belas",
+      "count": 2
+    },
+    {
+      "ref": "banyak",
+      "hyp": "bayar",
+      "count": 2
+    },
+    {
+      "ref": "otter",
+      "hyp": "ottor",
+      "count": 2
+    },
+    {
+      "ref": "bit",
+      "hyp": "pit",
+      "count": 2
+    },
+    {
+      "ref": "dia",
+      "hyp": "ada",
+      "count": 2
+    },
+    {
+      "ref": "kepada",
+      "hyp": "pada",
+      "count": 2
+    }
+  ],
+  "scribe_v2": [
+    {
+      "ref": "pertua",
+      "hyp": "dipertua",
+      "count": 4
+    },
+    {
+      "ref": "makcik",
+      "hyp": "cik",
+      "count": 4
+    },
+    {
+      "ref": "km",
+      "hyp": "kilometer",
+      "count": 2
+    },
+    {
+      "ref": "kad",
+      "hyp": "kat",
+      "count": 2
+    },
+    {
+      "ref": "teng",
+      "hyp": "ting",
+      "count": 2
+    },
+    {
+      "ref": "i",
+      "hyp": "ayah",
+      "count": 2
+    },
+    {
+      "ref": "orang",
+      "hyp": "diorang",
+      "count": 2
+    },
+    {
+      "ref": "100",
+      "hyp": "seratus",
+      "count": 2
+    },
+    {
+      "ref": "malaysia",
+      "hyp": "asia",
+      "count": 2
+    },
+    {
+      "ref": "ana",
+      "hyp": "anna",
+      "count": 2
+    },
+    {
+      "ref": "find",
+      "hyp": "kuat",
+      "count": 2
+    },
+    {
+      "ref": "mem",
+      "hyp": "me",
+      "count": 2
+    },
+    {
+      "ref": "mel",
+      "hyp": "maya",
+      "count": 2
+    },
+    {
+      "ref": "self",
+      "hyp": "south",
+      "count": 2
+    }
+  ],
+  "universal-2": [
+    {
+      "ref": "i",
+      "hyp": "saya",
+      "count": 22
+    },
+    {
+      "ref": "you",
+      "hyp": "awak",
+      "count": 9
+    },
+    {
+      "ref": "me",
+      "hyp": "saya",
+      "count": 5
+    },
+    {
+      "ref": "in",
+      "hyp": "di",
+      "count": 5
+    },
+    {
+      "ref": "and",
+      "hyp": "dan",
+      "count": 4
+    },
+    {
+      "ref": "hear",
+      "hyp": "dengar",
+      "count": 3
+    },
+    {
+      "ref": "kereta",
+      "hyp": "motor",
+      "count": 3
+    },
+    {
+      "ref": "dengan",
+      "hyp": "dan",
+      "count": 3
+    },
+    {
+      "ref": "for",
+      "hyp": "saya",
+      "count": 3
+    },
+    {
+      "ref": "mami",
+      "hyp": "mummy",
+      "count": 3
+    },
+    {
+      "ref": "to",
+      "hyp": "berdasarkan",
+      "count": 3
+    },
+    {
+      "ref": "arts",
+      "hyp": "seni",
+      "count": 2
+    },
+    {
+      "ref": "performing",
+      "hyp": "persembahan",
+      "count": 2
+    },
+    {
+      "ref": "terlampau",
+      "hyp": "terlalu",
+      "count": 2
+    },
+    {
+      "ref": "siminoff",
+      "hyp": "siminov",
+      "count": 2
+    },
+    {
+      "ref": "my",
+      "hyp": "nombor",
+      "count": 2
+    },
+    {
+      "ref": "what",
+      "hyp": "apa",
+      "count": 2
+    },
+    {
+      "ref": "day",
+      "hyp": "hari",
+      "count": 2
+    },
+    {
+      "ref": "you",
+      "hyp": "tidak",
+      "count": 2
+    },
+    {
+      "ref": "have",
+      "hyp": "telah",
+      "count": 2
+    },
+    {
+      "ref": "memanggil",
+      "hyp": "memakai",
+      "count": 2
+    },
+    {
+      "ref": "rakan",
+      "hyp": "akan",
+      "count": 2
+    },
+    {
+      "ref": "scroll",
+      "hyp": "suka",
+      "count": 2
+    },
+    {
+      "ref": "manik",
+      "hyp": "manis",
+      "count": 2
+    },
+    {
+      "ref": "beaded",
+      "hyp": "bidet",
+      "count": 2
+    },
+    {
+      "ref": "snyder",
+      "hyp": "schneider",
+      "count": 2
+    },
+    {
+      "ref": "uka",
+      "hyp": "ukar",
+      "count": 2
+    },
+    {
+      "ref": "but",
+      "hyp": "boot",
+      "count": 2
+    },
+    {
+      "ref": "of",
+      "hyp": "tahun",
+      "count": 2
+    },
+    {
+      "ref": "to",
+      "hyp": "untuk",
+      "count": 2
+    },
+    {
+      "ref": "to",
+      "hyp": "saya",
+      "count": 2
+    },
+    {
+      "ref": "kad",
+      "hyp": "kredit",
+      "count": 2
+    },
+    {
+      "ref": "credit",
+      "hyp": "kad",
+      "count": 2
+    },
+    {
+      "ref": "a",
+      "hyp": "menerima",
+      "count": 2
+    },
+    {
+      "ref": "informatif",
+      "hyp": "fomentis",
+      "count": 2
+    },
+    {
+      "ref": "find",
+      "hyp": "kuali",
+      "count": 2
+    },
+    {
+      "ref": "maybe",
+      "hyp": "mungkin",
+      "count": 2
+    },
+    {
+      "ref": "kanta",
+      "hyp": "kantar",
+      "count": 2
+    },
+    {
+      "ref": "by",
+      "hyp": "oleh",
+      "count": 2
+    },
+    {
+      "ref": "siasatan",
+      "hyp": "sesatan",
+      "count": 2
+    },
+    {
+      "ref": "meraikan",
+      "hyp": "meraihkan",
+      "count": 2
+    },
+    {
+      "ref": "passed",
+      "hyp": "berlalu",
+      "count": 2
+    },
+    {
+      "ref": "year",
+      "hyp": "telah",
+      "count": 2
+    },
+    {
+      "ref": "a",
+      "hyp": "sebulan",
+      "count": 2
+    },
+    {
+      "ref": "so",
+      "hyp": "dia",
+      "count": 2
+    },
+    {
+      "ref": "png",
+      "hyp": "bng",
+      "count": 2
+    },
+    {
+      "ref": "you",
+      "hyp": "bolehkah",
+      "count": 2
+    },
+    {
+      "ref": "tvet",
+      "hyp": "tibet",
+      "count": 2
+    },
+    {
+      "ref": "kat",
+      "hyp": "ke",
+      "count": 2
+    },
+    {
+      "ref": "need",
+      "hyp": "perlukan",
+      "count": 2
+    },
+    {
+      "ref": "us",
+      "hyp": "as",
+      "count": 2
+    },
+    {
+      "ref": "to",
+      "hyp": "yang",
+      "count": 2
+    },
+    {
+      "ref": "cik",
+      "hyp": "encik",
+      "count": 2
+    },
+    {
+      "ref": "you",
+      "hyp": "anda",
+      "count": 2
+    },
+    {
+      "ref": "can",
+      "hyp": "bolehkah",
+      "count": 2
+    },
+    {
+      "ref": "cakera",
+      "hyp": "chakra",
+      "count": 2
+    },
+    {
+      "ref": "so",
+      "hyp": "jadi",
+      "count": 2
+    },
+    {
+      "ref": "for",
+      "hyp": "untuk",
+      "count": 2
+    },
+    {
+      "ref": "thats",
+      "hyp": "itu",
+      "count": 2
+    },
+    {
+      "ref": "climate",
+      "hyp": "berdasarkan",
+      "count": 2
+    },
+    {
+      "ref": "senator",
+      "hyp": "sanata",
+      "count": 2
+    },
+    {
+      "ref": "undang",
+      "hyp": "rangunan",
+      "count": 2
+    }
+  ]
+}

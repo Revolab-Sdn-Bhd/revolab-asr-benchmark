@@ -1,0 +1,2490 @@
+{
+  "Qwen/Qwen3-ASR-0.6B": {
+    "model_id": "Qwen/Qwen3-ASR-0.6B",
+    "category_stats": {
+      "telephony": {
+        "wer": 19.47,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 27.12,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 14.88,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 12.96,
+        "n": 141
+      },
+      "singing": {
+        "wer": 31.28,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 43.43,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 23.84,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 19.45,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 13.19,
+        "n": 51
+      },
+      "drama": {
+        "wer": 37.94,
+        "n": 52
+      },
+      "animation": {
+        "wer": 25.11,
+        "n": 50
+      },
+      "news": {
+        "wer": 20.42,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 20.73,
+      "sub_rate": 15.3,
+      "ins_rate": 1.13,
+      "del_rate": 4.3,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "commonvoice: 13.0% WER — best category performance.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Kita perlu sentiasa mencuci tangan untuk menjaga kebersihan dan mengelakkan dari sebarang penyakit yang disebabkan oleh kuman-kuman yang berada di tangan kita.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "read-speech: 13.2% WER — strong performance on scripted audio.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Saya boleh menulis kanji.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Overall 1.1% insertion rate — rarely hallucinates extra words.",
+        "category": ""
+      },
+      {
+        "text": "fleurs: 1.1% deletion rate — rarely drops words.",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "Pantai Shore Utara di daerah Pelabuhan Utara di Lautan Pasifik dan meluas dari Long Bay utara ke Devonport di selatan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Lowest deletion rate on read-speech (1.8%) — captures most words.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Saya boleh menulis kanji.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "15th out of 17 peers at 20.7% WER — poor overall accuracy.",
+        "category": ""
+      },
+      {
+        "text": "22.1% of deletions are filler words — misses common speech.",
+        "category": "",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "[laugh] Ha, tu saya punya prinsip lah. Maksudnya, saya financial ke, apa benda, semua. Saya tak nak sebab bagi saya, semua orang,",
+          "split": "train",
+          "wer": 27.27
+        }
+      },
+      {
+        "text": "14 instances of word repetition — invents extra words.",
+        "category": "",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Aktiviti tradisional dan permainan yang dimainkan dalam- kanak-kanak komuniti saya adalah congkak, batu seremban, karom. Apa lagi? Teng-teng, um, kad, uh kad tepuk terup, uh.",
+          "split": "train",
+          "wer": 57.14
+        }
+      },
+      {
+        "text": "street interview: 43.4% WER, 13.1% del — drops many words.",
+        "category": "street interview",
+        "evidence": {
+          "ref": "Kalau ada duit lebih kan, adik nak buat apa? Buat apa? Um, pergi bercuti? Pergi bercuti kat mana? Um, kat overseas. Ha. Dekat? Melbourne? Melbourne. Ha. Okay, thank you dik. Alright.",
+          "split": "train",
+          "wer": 74.19
+        }
+      },
+      {
+        "text": "drama: 29.4% sub rate — confuses many words.",
+        "category": "drama",
+        "evidence": {
+          "ref": "Adik i mati bunuh diri su. melinda dah sebarkan gambar aib dia sebab dia marahkan i. she's so stressed. she has such a right image. i memang nak bunuh mel. you baliklah su. i, i nak cari mel.",
+          "split": "train",
+          "wer": 60.53
+        }
+      }
+    ]
+  },
+  "Qwen/Qwen3-ASR-1.7B": {
+    "model_id": "Qwen/Qwen3-ASR-1.7B",
+    "category_stats": {
+      "telephony": {
+        "wer": 15.88,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 29.91,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 7.65,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 8.42,
+        "n": 141
+      },
+      "singing": {
+        "wer": 19.41,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 37.65,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 16.24,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 14.37,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 7.36,
+        "n": 51
+      },
+      "drama": {
+        "wer": 27.54,
+        "n": 52
+      },
+      "animation": {
+        "wer": 17.4,
+        "n": 50
+      },
+      "news": {
+        "wer": 23.19,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 15.26,
+      "sub_rate": 11.07,
+      "ins_rate": 0.88,
+      "del_rate": 3.31,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "#1 read-speech: 7.4% WER — near-perfect on clear, read speech.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "#2 fleurs: 7.7% WER — strong performance on diverse read speech.",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "Rekod pertemuan Nadal dan pemain Kanada ini ialah 7-2.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "#3 commonvoice: 8.4% WER — solid accuracy for general conversational speech.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "#4 Overall: 0.9% Ins — rarely hallucinates extra words.",
+        "category": "Overall"
+      }
+    ],
+    "weak": [
+      {
+        "text": "#1 Overall: 15.3% WER — ranks 13th out of 17 peers.",
+        "category": "Overall"
+      },
+      {
+        "text": "#2 FILLER-WORD DELETION: 36.2% of deletions are dropped filler words.",
+        "category": "Overall",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 33.33
+        }
+      },
+      {
+        "text": "#3 REPETITION HALLUCINATION: 14 instances of repeating words.",
+        "category": "Overall",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Langkah, langkah the next year lah buat buat shooting.",
+          "split": "train",
+          "wer": 22.22
+        }
+      },
+      {
+        "text": "#4 street interview: 37.6% WER, 22.7% Sub — confuses many words in interviews.",
+        "category": "street interview",
+        "evidence": {
+          "ref": "Kalau ada duit lebih kan, adik nak buat apa? Buat apa? Um, pergi bercuti? Pergi bercuti kat mana? Um, kat overseas. Ha. Dekat? Melbourne? Melbourne. Ha. Okay, thank you dik. Alright.",
+          "split": "train",
+          "wer": 67.74
+        }
+      },
+      {
+        "text": "#5 street interview: 13.2% Del — drops many words in spontaneous speech.",
+        "category": "street interview",
+        "evidence": {
+          "ref": "Kalau ada duit lebih kan, adik nak buat apa? Buat apa? Um, pergi bercuti? Pergi bercuti kat mana? Um, kat overseas. Ha. Dekat? Melbourne? Melbourne. Ha. Okay, thank you dik. Alright.",
+          "split": "train",
+          "wer": 67.74
+        }
+      }
+    ]
+  },
+  "aisyah-1.0-flash": {
+    "model_id": "aisyah-1.0-flash",
+    "category_stats": {
+      "telephony": {
+        "wer": 13.27,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 2.52,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 5.22,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 4.44,
+        "n": 141
+      },
+      "singing": {
+        "wer": 67.58,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 14.66,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 4.65,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 2.85,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 2.45,
+        "n": 51
+      },
+      "drama": {
+        "wer": 9.63,
+        "n": 52
+      },
+      "animation": {
+        "wer": 9.8,
+        "n": 50
+      },
+      "news": {
+        "wer": 4.51,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 7.98,
+      "sub_rate": 4.92,
+      "ins_rate": 0.65,
+      "del_rate": 2.41,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "read-speech: 2.5% WER — near-perfect transcription.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "short-inputs: 2.5% WER — near-perfect transcription.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "almost there",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "parliament: 2.9% WER — highly accurate for formal speech.",
+        "category": "parliament",
+        "evidence": {
+          "ref": "Perdagangan kekal didominasi oleh eksport barang elektrikal dan elektronik, disusuli oleh produk petroleum, kimia, minyak sawit dan produk logam. tuan yang di-pertua.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "news: 4.5% WER — reliably transcribes broadcast content.",
+        "category": "news",
+        "evidence": {
+          "ref": "Katanya operasi bersepadu ini akan terus dipergiat bagi memastikan undang-undang sentiasa dipatuhi dan aktiviti haram dapat ditangani dengan berkesan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "singing: 67.6% WER — completely fails on musical content.",
+        "category": "singing",
+        "evidence": {
+          "ref": "Mengapa kau semakin jauh dariku?",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "singing: 11 blank outputs — model fails completely.",
+        "category": "singing",
+        "pattern": "empty_predictions",
+        "evidence": {
+          "ref": "Hanyalah seru mati yang mengharapkan kasihmu. Memang benar cinta.",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "telephony: 13.3% WER, 9.0% sub — confuses words in calls.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "The pictures.",
+          "split": "train",
+          "wer": 50.0
+        }
+      },
+      {
+        "text": "commonvoice: 8.1% of deletions are filler words.",
+        "category": "commonvoice",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "I have, uh, I, I already have made the payments.",
+          "split": "train",
+          "wer": 30.0
+        }
+      },
+      {
+        "text": "commonvoice: 6 instances of repetition hallucination.",
+        "category": "commonvoice",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Moga-moga ikatan kekal sama Riang gembira di hari raya",
+          "split": "train",
+          "wer": 100.0
+        }
+      }
+    ]
+  },
+  "aisyah-1.0-pro": {
+    "model_id": "aisyah-1.0-pro",
+    "category_stats": {
+      "telephony": {
+        "wer": 6.11,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 2.52,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 3.42,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 3.74,
+        "n": 141
+      },
+      "singing": {
+        "wer": 10.5,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 14.56,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 4.41,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 3.71,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 2.15,
+        "n": 51
+      },
+      "drama": {
+        "wer": 6.42,
+        "n": 52
+      },
+      "animation": {
+        "wer": 3.92,
+        "n": 50
+      },
+      "news": {
+        "wer": 3.66,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 4.89,
+      "sub_rate": 2.78,
+      "ins_rate": 0.54,
+      "del_rate": 1.56,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "2nd overall at 4.9% WER — outperforms 15 out of 17 peers.",
+        "category": ""
+      },
+      {
+        "text": "read-speech: 2.1% WER, 0.0% del — near-perfect transcription.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "short-inputs: 2.5% WER, 0.0% ins — highly accurate for brief utterances.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "almost there",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Overall 0.5% insertion rate — rarely hallucinates extra words.",
+        "category": ""
+      }
+    ],
+    "weak": [
+      {
+        "text": "40.6% of deletions are filler words — misses common conversational speech.",
+        "category": "",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 22.22
+        }
+      },
+      {
+        "text": "3 instances of repetition hallucination — invents repeated words.",
+        "category": "",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Uh",
+          "split": "train",
+          "wer": 200.0
+        }
+      },
+      {
+        "text": "street interview: 14.6% WER, 6.3% del — struggles with noisy, spontaneous speech.",
+        "category": "street interview",
+        "evidence": {
+          "ref": "Filem Malaysia kurang sikit, tapi aa I suka ah macam cerita-cerita gangster semua. Filem apa you suka dan kenapa you suka? Macam KL Gangster, I tengok semua. Juvana.",
+          "split": "train",
+          "wer": 34.48
+        }
+      },
+      {
+        "text": "singing: 10.5% WER, 7.8% sub — mishears lyrics significantly.",
+        "category": "singing",
+        "evidence": {
+          "ref": "Terima kasih pada semua yang setia pada masanya, menyaksikan aksi jenaka berhibur ber.",
+          "split": "train",
+          "wer": 35.71
+        }
+      },
+      {
+        "text": "telephony: 6.1% WER, 2.6% del — drops words in call center scenarios.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "I, I don't think you, you have the correct phone numbers.",
+          "split": "train",
+          "wer": 18.18
+        }
+      }
+    ]
+  },
+  "gemini-2.5-flash": {
+    "model_id": "gemini-2.5-flash",
+    "category_stats": {
+      "telephony": {
+        "wer": 26.15,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 94.02,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 3.29,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 4.09,
+        "n": 141
+      },
+      "singing": {
+        "wer": 24.66,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 19.27,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 13.09,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 9.53,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 10.77,
+        "n": 51
+      },
+      "drama": {
+        "wer": 10.64,
+        "n": 52
+      },
+      "animation": {
+        "wer": 9.53,
+        "n": 50
+      },
+      "news": {
+        "wer": 3.27,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 9.05,
+      "sub_rate": 4.48,
+      "ins_rate": 2.18,
+      "del_rate": 2.39,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "news: 3.3% WER — excellent for formal speech.",
+        "category": "news",
+        "evidence": {
+          "ref": "Operasi membanteras kilang sisa elektronik e-waste haram terus dipergiat apabila sebuah lagi kilang di sungai petani, kedah diserbu semalam. dianggarkan lebih 300 tan e-waste, pelbagai peralatan serta jentera bernilai RM8.2 juta dirampas.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "fleurs: 3.3% WER — highly accurate on read speech.",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "34% daripada mereka dalam tinjauan ini berpendapat, inginkan Ratu Elizabeth II menjadi raja terakhir Australia.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "commonvoice: 4.1% WER — strong on diverse voices.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Overall 2.2% insertion rate — rarely hallucinates extra words.",
+        "category": "overall"
+      },
+      {
+        "text": "Ranks 9th of 17 peers — outperforms many models.",
+        "category": "overall"
+      }
+    ],
+    "weak": [
+      {
+        "text": "SCRIPT-MISMATCH HALLUCINATION: 1 row output non-Latin script.",
+        "category": "overall",
+        "pattern": "script_mismatch",
+        "evidence": {
+          "ref": "Langkah, langkah the next year lah buat buat shooting.",
+          "split": "train",
+          "wer": 44.44
+        }
+      },
+      {
+        "text": "FILLER-WORD DELETION: 38% of deletions are filler words.",
+        "category": "overall",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 27.78
+        }
+      },
+      {
+        "text": "REPETITION HALLUCINATION: 5 instances of repeated words.",
+        "category": "overall",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Oh, biasa. Butik-butik biasa je macam HM, H&M , Uniqlo, VO ah, gitulah. Secara jujurnya lah, ah kalau setiap bulan wajib beli-",
+          "split": "train",
+          "wer": 13.04
+        }
+      },
+      {
+        "text": "short-inputs: 94.0% WER — completely fails on short phrases.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "200 okay",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "telephony: 26.1% WER, 12.6% del — drops many words.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "I dah bayar lah, RM950 ni.",
+          "split": "train",
+          "wer": 70.0
+        }
+      }
+    ]
+  },
+  "gemini-2.5-pro": {
+    "model_id": "gemini-2.5-pro",
+    "category_stats": {
+      "telephony": {
+        "wer": 21.05,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 36.84,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 2.26,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 3.16,
+        "n": 141
+      },
+      "singing": {
+        "wer": 10.5,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 11.26,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 4.6,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 3.93,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 5.85,
+        "n": 51
+      },
+      "drama": {
+        "wer": 8.31,
+        "n": 52
+      },
+      "animation": {
+        "wer": 5.3,
+        "n": 50
+      },
+      "news": {
+        "wer": 3.05,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 5.3,
+      "sub_rate": 2.63,
+      "ins_rate": 0.65,
+      "del_rate": 2.02,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "#3 overall: 5.3% WER — outperforms 14 of 17 peers.",
+        "category": "OVERALL ACCURACY"
+      },
+      {
+        "text": "fleurs: 2.3% WER — near-perfect transcription.",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "Rekod pertemuan Nadal dan pemain Kanada ini ialah 7-2.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "news: 3.0% WER — excellent for broadcast content.",
+        "category": "news",
+        "evidence": {
+          "ref": "Katanya operasi bersepadu ini akan terus dipergiat bagi memastikan undang-undang sentiasa dipatuhi dan aktiviti haram dapat ditangani dengan berkesan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "commonvoice: 3.2% WER — very accurate for general speech.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "parliament: 3.9% WER — reliably transcribes formal speech.",
+        "category": "parliament",
+        "evidence": {
+          "ref": "Perdagangan kekal didominasi oleh eksport barang elektrikal dan elektronik, disusuli oleh produk petroleum, kimia, minyak sawit dan produk logam. tuan yang di-pertua.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "SCRIPT-MISMATCH: 2 instances of non-Latin script — language-ID collapse.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "script_mismatch",
+        "evidence": {
+          "ref": "tunggu apa",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "FILLER-WORD DELETION: 31.6% of deletions are filler words — drops speech.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "[laugh] Ha, tu saya punya prinsip lah. Maksudnya, saya financial ke, apa benda, semua. Saya tak nak sebab bagi saya, semua orang,",
+          "split": "train",
+          "wer": 13.64
+        }
+      },
+      {
+        "text": "REPETITION HALLUCINATION: 3 instances of repeated words — invents speech.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Helo, Amar. Dan awak perlu ucap helo pada Hopiti. Huh Mana Hopiti?",
+          "split": "train",
+          "wer": 41.67
+        }
+      },
+      {
+        "text": "short-inputs: 36.8% WER, 21.1% sub — extremely poor.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "not sure lah",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "telephony: 21.1% WER, 10.1% del — drops many words.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "I dah bayar lah, RM950 ni.",
+          "split": "train",
+          "wer": 71.43
+        }
+      }
+    ]
+  },
+  "gemini-3.1-pro-preview": {
+    "model_id": "gemini-3.1-pro-preview",
+    "category_stats": {
+      "telephony": {
+        "wer": 133.26,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 1722.03,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 16.31,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 8.88,
+        "n": 141
+      },
+      "singing": {
+        "wer": 19.63,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 29.07,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 24.02,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 49.81,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 111.93,
+        "n": 51
+      },
+      "drama": {
+        "wer": 41.37,
+        "n": 52
+      },
+      "animation": {
+        "wer": 23.3,
+        "n": 50
+      },
+      "news": {
+        "wer": 24.96,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 41.72,
+      "sub_rate": 3.45,
+      "ins_rate": 36.9,
+      "del_rate": 1.37,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "commonvoice: 8.9% WER — best category, relatively low error.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "0.1% deletion rate on animation — rarely drops words.",
+        "category": "animation",
+        "evidence": {
+          "ref": "[laugh] Sula pakai penutup telinga sebab dia takut bunyi letupan. saya tak takut jadi saya keluar. kemudian, roket yang sangat kuat meletup.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "1.2% substitution rate on commonvoice — rarely confuses words.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "fleurs: 16.3% WER — second-best category performance.",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "Rekod pertemuan Nadal dan pemain Kanada ini ialah 7-2.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "news: 25.0% WER — relatively stable performance for broadcast.",
+        "category": "news",
+        "evidence": {
+          "ref": "Mangsa kini dirawat di Hospital Sultanah Nur Zahirah, Kuala Terengganu.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "3 script-mismatch hallucinations — language ID collapse.",
+        "category": "short-inputs",
+        "pattern": "script_mismatch",
+        "evidence": {
+          "ref": "Jomlah",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "27.8% of deletions are filler words — misses common speech.",
+        "category": "telephony",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 22.22
+        }
+      },
+      {
+        "text": "1 repetition hallucination — model invents repeated words.",
+        "category": "short-inputs",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "He called for a deeper international cooperation, highlighting the need for inclusivity and the free flow of green technologies, while pledging china's continued support for developing countries, especially through self-self-cooperation. he also urged countries to take concrete results-driven actions to meet their climate pledges, calling undeveloped nations to assist developing countries in shifting towards low carbon development. china is set to unveil its 2035 climate targets before the upcoming UN climate change conference.",
+          "split": "train",
+          "wer": 6.58
+        }
+      },
+      {
+        "text": "41.7% overall WER — ranks last among 17 peers.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "5 options",
+          "split": "train",
+          "wer": 7900.0
+        }
+      },
+      {
+        "text": "1689.0% insertion rate on short-inputs — extreme hallucination.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "5 options",
+          "split": "train",
+          "wer": 7900.0
+        }
+      }
+    ]
+  },
+  "gemini-3.6-flash": {
+    "model_id": "gemini-3.6-flash",
+    "category_stats": {
+      "telephony": {
+        "wer": 72.84,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 617.95,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 2.79,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 4.37,
+        "n": 141
+      },
+      "singing": {
+        "wer": 26.48,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 20.49,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 9.21,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 6.58,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 10.77,
+        "n": 51
+      },
+      "drama": {
+        "wer": 13.73,
+        "n": 52
+      },
+      "animation": {
+        "wer": 10.29,
+        "n": 50
+      },
+      "news": {
+        "wer": 5.88,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 15.01,
+      "sub_rate": 5.59,
+      "ins_rate": 7.17,
+      "del_rate": 2.25,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "fleurs: 2.8% WER — near-perfect transcription",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "Rekod pertemuan Nadal dan pemain Kanada ini ialah 7-2.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "commonvoice: 4.4% WER — excellent performance",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Suatu cabaran yang dihadapi adalah kekurangan wang untuk memulakan perniagaan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "news: 5.9% WER — strong accuracy for formal speech",
+        "category": "news",
+        "evidence": {
+          "ref": "Katanya operasi bersepadu ini akan terus dipergiat bagi memastikan undang-undang sentiasa dipatuhi dan aktiviti haram dapat ditangani dengan berkesan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "parliament: 6.6% WER — reliably transcribes official proceedings",
+        "category": "parliament",
+        "evidence": {
+          "ref": "Perdagangan kekal didominasi oleh eksport barang elektrikal dan elektronik, disusuli oleh produk petroleum, kimia, minyak sawit dan produk logam. tuan yang di-pertua.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Overall deletion rate 2.2% — rarely drops words",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "Rekod pertemuan Nadal dan pemain Kanada ini ialah 7-2.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "5 instances of script-mismatch hallucination — language ID collapse",
+        "category": "fleurs",
+        "pattern": "script_mismatch",
+        "evidence": {
+          "ref": "Jomlah",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "29.3% of deletions are filler words — misses common speech",
+        "category": "commonvoice",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 22.22
+        }
+      },
+      {
+        "text": "7 instances of word repetition hallucination — invents extra words",
+        "category": "podcast",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Sampailah kita lebih smart. macam mana nak mengatasi sesuatu masalah tanpa nak pukul-pukul all this thing, ya. kadang-kadang kita kena fikir macam tu lah.",
+          "split": "train",
+          "wer": 11.54
+        }
+      },
+      {
+        "text": "short-inputs: 618.0% WER, 564.1% ins — catastrophic hallucination",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "no worries",
+          "split": "train",
+          "wer": 2150.0
+        }
+      },
+      {
+        "text": "telephony: 72.8% WER, 50.7% ins — hallucinates heavily",
+        "category": "telephony",
+        "evidence": {
+          "ref": "102105",
+          "split": "train",
+          "wer": 633.33
+        }
+      }
+    ]
+  },
+  "ilmu-asr-v4.2": {
+    "model_id": "ilmu-asr-v4.2",
+    "category_stats": {
+      "telephony": {
+        "wer": 16.73,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 24.14,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 5.69,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 6.15,
+        "n": 141
+      },
+      "singing": {
+        "wer": 29.45,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 16.92,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 4.03,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 4.09,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 3.68,
+        "n": 51
+      },
+      "drama": {
+        "wer": 9.07,
+        "n": 52
+      },
+      "animation": {
+        "wer": 8.45,
+        "n": 50
+      },
+      "news": {
+        "wer": 4.7,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 7.78,
+      "sub_rate": 4.92,
+      "ins_rate": 0.73,
+      "del_rate": 2.13,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "Ranks 7th out of 17 peers — outperforms 10 other models.",
+        "category": "news",
+        "evidence": {
+          "ref": "Katanya operasi bersepadu ini akan terus dipergiat bagi memastikan undang-undang sentiasa dipatuhi dan aktiviti haram dapat ditangani dengan berkesan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Read-speech: 3.7% WER — near-perfect transcription, no insertions or deletions.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Buku nota ini berbeza daripada buku nota saya.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Podcast: 4.0% WER — highly accurate for spoken audio.",
+        "category": "podcast",
+        "evidence": {
+          "ref": "So, nanti, buat. Lepas tu, okay, daripada semua ni,",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Parliament: 4.1% WER — strong performance on formal speech.",
+        "category": "parliament",
+        "evidence": {
+          "ref": "Kementerian pengangkutan juga telah menjalinkan kerjasama dengan kementerian kerja raya dalam cadangan pembinaan laluan motosikal yang baharu.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "News: 4.7% WER — reliably transcribes broadcast content.",
+        "category": "news",
+        "evidence": {
+          "ref": "Katanya operasi bersepadu ini akan terus dipergiat bagi memastikan undang-undang sentiasa dipatuhi dan aktiviti haram dapat ditangani dengan berkesan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "14 instances of non-Latin script output — language ID collapse.",
+        "category": "singing",
+        "pattern": "script_mismatch",
+        "evidence": {
+          "ref": "3",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "38.2% of deletions are filler words — misses common speech.",
+        "category": "singing",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 33.33
+        }
+      },
+      {
+        "text": "13 instances of Malay reduplication merged — loses semantic nuance.",
+        "category": "singing",
+        "pattern": "reduplication_merges",
+        "evidence": {
+          "ref": "Buku cerita kanak-kanak tempatan yang selalu saya bacakan untuk anak-anak tadika saya adalah cerita Bawang Putih dan Bawang Merah.",
+          "split": "train",
+          "wer": 9.09
+        }
+      },
+      {
+        "text": "Short-inputs: 12.9% deletion rate — drops many words.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "Tak boleh",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "Singing: 29.4% WER, 24.2% sub — mishears nearly one-third.",
+        "category": "singing",
+        "evidence": {
+          "ref": "Hanyalah seru mati yang mengharapkan kasihmu. Memang benar cinta.",
+          "split": "train",
+          "wer": 70.0
+        }
+      }
+    ]
+  },
+  "nova-3": {
+    "model_id": "nova-3",
+    "category_stats": {
+      "telephony": {
+        "wer": 68.2,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 38.74,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 7.55,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 14.01,
+        "n": 141
+      },
+      "singing": {
+        "wer": 42.47,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 49.35,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 38.78,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 44.31,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 8.92,
+        "n": 51
+      },
+      "drama": {
+        "wer": 33.74,
+        "n": 52
+      },
+      "animation": {
+        "wer": 29.41,
+        "n": 50
+      },
+      "news": {
+        "wer": 27.7,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 25.63,
+      "sub_rate": 9.32,
+      "ins_rate": 0.77,
+      "del_rate": 15.54,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "fleurs: 7.5% WER — best performance, near-perfect samples.",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "Selepas pegawai mengesahkan identity pengundi, pengundi memasukkan sampul surat ke dalam peti undi dan menandatangani senarai pengundian.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "read-speech: 8.9% WER — strong performance on clear speech.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Buku nota ini berbeza daripada buku nota saya.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Overall insertion rate: 0.8% — rarely hallucinates extra words.",
+        "category": "OVERALL ACCURACY"
+      }
+    ],
+    "weak": [
+      {
+        "text": "Overall: 25.6% WER — ranks 16th out of 17 models.",
+        "category": "OVERALL ACCURACY"
+      },
+      {
+        "text": "BLANK OUTPUT: 12.3% of samples — hard failure, no prediction.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "empty_predictions",
+        "evidence": {
+          "ref": "Liku liku kehidupan pahit manis, kita hadapi bersama, semoga kita berdua bahagia.",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "telephony: 68.2% WER — worst category, almost unusable.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "I, I don't think you, you have the correct phone numbers.",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "FILLER-WORD DELETION: 9.5% of deletions — misses common speech fillers.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "REDUPLICATION MERGING: 64 instances — collapses common Malay words.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "reduplication_merges",
+        "evidence": {
+          "ref": "Buku cerita kanak-kanak tempatan yang selalu saya bacakan untuk anak-anak tadika saya adalah cerita Bawang Putih dan Bawang Merah.",
+          "split": "train",
+          "wer": 18.18
+        }
+      }
+    ]
+  },
+  "openai/whisper-large-v3": {
+    "model_id": "openai/whisper-large-v3",
+    "category_stats": {
+      "telephony": {
+        "wer": 113.05,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 29.2,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 5.49,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 5.47,
+        "n": 141
+      },
+      "singing": {
+        "wer": 26.71,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 20.69,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 20.52,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 11.52,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 2.77,
+        "n": 51
+      },
+      "drama": {
+        "wer": 12.96,
+        "n": 52
+      },
+      "animation": {
+        "wer": 7.56,
+        "n": 50
+      },
+      "news": {
+        "wer": 29.2,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 15.62,
+      "sub_rate": 8.04,
+      "ins_rate": 3.56,
+      "del_rate": 4.02,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "read-speech: 2.8% WER — near-perfect transcription.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "commonvoice: 5.5% WER — strong on conversational speech.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "fleurs: 5.5% WER — accurate on diverse, clean speech.",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "34% daripada mereka dalam tinjauan ini berpendapat, inginkan Ratu Elizabeth II menjadi raja terakhir Australia.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "animation: 7.6% WER — good for animated content.",
+        "category": "animation",
+        "evidence": {
+          "ref": "[laugh] Sula pakai penutup telinga sebab dia takut bunyi letupan. saya tak takut jadi saya keluar. kemudian, roket yang sangat kuat meletup.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "Overall: 15.6% WER — ranks 14th among 17 models.",
+        "category": "Overall"
+      },
+      {
+        "text": "telephony: 113.0% WER — completely unusable, high insertions.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "Can you tell me how to create a new credit card?",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "telephony: 60.8% Ins — hallucinates heavily on phone calls.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "Can you tell me how to create a new credit card?",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "34.7% of deletions are filler words.",
+        "category": "Overall",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 38.89
+        }
+      },
+      {
+        "text": "4 instances of unnecessary word repetition.",
+        "category": "Overall",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Untuk, untuk I nak berjumpa dengan dia pun, benda tu memang sangat jarang. Jadi, I akan more focus on my work.",
+          "split": "train",
+          "wer": 695.24
+        }
+      }
+    ]
+  },
+  "qwen-audio-3.0-asr-flash": {
+    "model_id": "qwen-audio-3.0-asr-flash",
+    "category_stats": {
+      "telephony": {
+        "wer": 11.45,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 22.88,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 3.29,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 4.78,
+        "n": 141
+      },
+      "singing": {
+        "wer": 17.12,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 20.59,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 7.24,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 5.37,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 2.76,
+        "n": 51
+      },
+      "drama": {
+        "wer": 11.45,
+        "n": 52
+      },
+      "animation": {
+        "wer": 7.24,
+        "n": 50
+      },
+      "news": {
+        "wer": 6.05,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 7.22,
+      "sub_rate": 4.14,
+      "ins_rate": 0.77,
+      "del_rate": 2.3,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "4th out of 17 peers at 7.2% WER — competitive",
+        "category": "overall"
+      },
+      {
+        "text": "read-speech: 2.8% WER — excellent",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "fleurs: 3.3% WER — strong performance",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "34% daripada mereka dalam tinjauan ini berpendapat, inginkan Ratu Elizabeth II menjadi raja terakhir Australia.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "commonvoice: 4.8% WER — reliable",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "overall 0.8% insertion rate — minimal hallucination",
+        "category": "overall"
+      }
+    ],
+    "weak": [
+      {
+        "text": "12 samples output non-Latin script — critical language-ID failure",
+        "category": "overall",
+        "pattern": "script_mismatch",
+        "evidence": {
+          "ref": "3",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "2 samples produced blank output — hard failure",
+        "category": "overall",
+        "pattern": "empty_predictions",
+        "evidence": {
+          "ref": "Tanpa dirimu, aku rapuh",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "28.6% of deletions are filler words — misses common speech",
+        "category": "overall",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "[laugh] Ha, tu saya punya prinsip lah. Maksudnya, saya financial ke, apa benda, semua. Saya tak nak sebab bagi saya, semua orang,",
+          "split": "train",
+          "wer": 27.27
+        }
+      },
+      {
+        "text": "5 instances of repetition hallucination — invents extra words",
+        "category": "overall",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Fuyo, biar betul. Iwan dapat ambil selfie dengan Akram.",
+          "split": "train",
+          "wer": 22.22
+        }
+      },
+      {
+        "text": "short-inputs: 22.9% WER, 15.2% sub — struggles with brevity",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "correct",
+          "split": "train",
+          "wer": 100.0
+        }
+      }
+    ]
+  },
+  "qwen3-asr-0.6b-malay-aug-s12000-L0": {
+    "model_id": "qwen3-asr-0.6b-malay-aug-s12000-L0",
+    "category_stats": {
+      "telephony": {
+        "wer": 14.9,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 17.65,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 5.29,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 4.84,
+        "n": 141
+      },
+      "singing": {
+        "wer": 26.71,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 19.96,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 6.98,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 5.22,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 4.89,
+        "n": 51
+      },
+      "drama": {
+        "wer": 7.74,
+        "n": 52
+      },
+      "animation": {
+        "wer": 6.64,
+        "n": 50
+      },
+      "news": {
+        "wer": 5.21,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 7.63,
+      "sub_rate": 4.76,
+      "ins_rate": 1.2,
+      "del_rate": 1.67,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "6th best overall at 7.6% WER — outperforms 11 peers.",
+        "category": "OVERALL ACCURACY"
+      },
+      {
+        "text": "commonvoice: 4.8% WER — highly accurate for general speech.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Suatu cabaran yang dihadapi adalah kekurangan wang untuk memulakan perniagaan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "read-speech: 4.9% WER, 0.0% ins — virtually no hallucinations.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "news: 5.2% WER — strong performance on broadcast content.",
+        "category": "news",
+        "evidence": {
+          "ref": "Katanya operasi bersepadu ini akan terus dipergiat bagi memastikan undang-undang sentiasa dipatuhi dan aktiviti haram dapat ditangani dengan berkesan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "singing: 26.7% WER, 17.6% sub — struggles severely with music.",
+        "category": "singing",
+        "evidence": {
+          "ref": "Kau bisa membahagiakan, menceriakan, kau.",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "telephony: 14.9% WER — poor on call center audio.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "The pictures.",
+          "split": "train",
+          "wer": 50.0
+        }
+      },
+      {
+        "text": "4 blank outputs (0.5%) — hard failures, worst in singing.",
+        "category": "singing",
+        "pattern": "empty_predictions",
+        "evidence": {
+          "ref": "Ku cuba bayangkan raut wajahmu. Doaku agar.",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "28% of deletions are filler words — misses common speech pauses.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "[laugh] Ha, tu saya punya prinsip lah. Maksudnya, saya financial ke, apa benda, semua. Saya tak nak sebab bagi saya, semua orang,",
+          "split": "train",
+          "wer": 4.55
+        }
+      },
+      {
+        "text": "7 repetition hallucinations — model invents repeated words.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Which is yang warna, tadi dia warna putih tu. Yang dia ada dua pedal. Satu lagi, dia pakai beaded. Beaded tu yang manik-manik-manik dalam tali tu. Untuk freestyle. Satu lagi, kita ada category untuk speed.",
+          "split": "train",
+          "wer": 18.92
+        }
+      }
+    ]
+  },
+  "qwen3-asr-0.6b-malay-s12000": {
+    "model_id": "qwen3-asr-0.6b-malay-s12000",
+    "category_stats": {
+      "telephony": {
+        "wer": 13.67,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 15.13,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 5.67,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 4.72,
+        "n": 141
+      },
+      "singing": {
+        "wer": 23.74,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 18.98,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 6.09,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 5.13,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 3.37,
+        "n": 51
+      },
+      "drama": {
+        "wer": 8.52,
+        "n": 52
+      },
+      "animation": {
+        "wer": 8.6,
+        "n": 50
+      },
+      "news": {
+        "wer": 5.14,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 7.47,
+      "sub_rate": 4.78,
+      "ins_rate": 1.09,
+      "del_rate": 1.6,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "read-speech: 3.4% WER — near-perfect transcription.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "read-speech: 0.0% insertion rate — never hallucinates extra words.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "commonvoice: 4.7% WER — very accurate for general speech.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Suatu cabaran yang dihadapi adalah kekurangan wang untuk memulakan perniagaan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "parliament: 5.1% WER — strong for formal speech.",
+        "category": "parliament",
+        "evidence": {
+          "ref": "Perdagangan kekal didominasi oleh eksport barang elektrikal dan elektronik, disusuli oleh produk petroleum, kimia, minyak sawit dan produk logam. tuan yang di-pertua.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "news: 5.1% WER — reliably transcribes broadcast content.",
+        "category": "news",
+        "evidence": {
+          "ref": "Katanya operasi bersepadu ini akan terus dipergiat bagi memastikan undang-undang sentiasa dipatuhi dan aktiviti haram dapat ditangani dengan berkesan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "Filler-word deletion: 33.2% of deletions are filler words.",
+        "category": "commonvoice",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "[laugh] Ha, tu saya punya prinsip lah. Maksudnya, saya financial ke, apa benda, semua. Saya tak nak sebab bagi saya, semua orang,",
+          "split": "train",
+          "wer": 4.55
+        }
+      },
+      {
+        "text": "Repetition hallucination: 11 instances — invents repeated words.",
+        "category": "drama",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Okay, thank you. Beli mainan. Beli mainan. Mainan apa? Kereta kontrol Kereta control. Haa, adik pulak. Kereta control jugak. Mana boleh tiru, lain, lain, lain. Haa, motor. Motor? Adik dah ada lesen ke? Belum. [laugh] Bodoh. Takpelah. Bye bye dik. [inaudible] nak buat.",
+          "split": "train",
+          "wer": 41.86
+        }
+      },
+      {
+        "text": "singing: 23.7% WER, 19.4% sub — mishears almost everything.",
+        "category": "singing",
+        "evidence": {
+          "ref": "Hati berkenang.",
+          "split": "train",
+          "wer": 50.0
+        }
+      },
+      {
+        "text": "short-inputs: 10.1% insertion rate — hallucinates many extra words.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "Tak ada sesiapa",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "street interview: 19.0% WER — struggles with spontaneous speech.",
+        "category": "street interview",
+        "evidence": {
+          "ref": "Mm, maybe Becinta cerita lama, Nora Danish dengan Farid Kamil. Aah.",
+          "split": "train",
+          "wer": 36.36
+        }
+      }
+    ]
+  },
+  "scribe_v2": {
+    "model_id": "scribe_v2",
+    "category_stats": {
+      "telephony": {
+        "wer": 9.02,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 13.04,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 2.38,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 3.16,
+        "n": 141
+      },
+      "singing": {
+        "wer": 11.19,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 12.96,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 4.77,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 4.09,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 1.53,
+        "n": 51
+      },
+      "drama": {
+        "wer": 6.74,
+        "n": 52
+      },
+      "animation": {
+        "wer": 6.03,
+        "n": 50
+      },
+      "news": {
+        "wer": 3.67,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 4.79,
+      "sub_rate": 2.81,
+      "ins_rate": 0.55,
+      "del_rate": 1.44,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "#1 overall at 4.8% WER — outperforms all 16 peers.",
+        "category": "Overall"
+      },
+      {
+        "text": "read-speech: 1.5% WER — near-perfect transcription.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "fleurs: 2.4% WER — highly accurate on diverse speech.",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "Rekod pertemuan Nadal dan pemain Kanada ini ialah 7-2.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "commonvoice: 3.2% WER — strong performance on conversational speech.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "news: 3.7% WER — reliably transcribes broadcast content.",
+        "category": "news",
+        "evidence": {
+          "ref": "Katanya operasi bersepadu ini akan terus dipergiat bagi memastikan undang-undang sentiasa dipatuhi dan aktiviti haram dapat ditangani dengan berkesan.",
+          "split": "train",
+          "wer": 0.0
+        }
+      }
+    ],
+    "weak": [
+      {
+        "text": "singing: 11.2% WER, 8.7% sub — mishears sung words.",
+        "category": "singing",
+        "evidence": {
+          "ref": "Kau bisa membahagiakan, menceriakan, kau.",
+          "split": "train",
+          "wer": 40.0
+        }
+      },
+      {
+        "text": "short-inputs: 13.0% WER, 10.4% sub — struggles with brevity.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "almost there",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "1 blank output (0.1%) — hard failure.",
+        "category": "singing",
+        "pattern": "empty_predictions",
+        "evidence": {
+          "ref": "Terima.",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "78 filler word deletions (38.4%) — misses common speech.",
+        "category": "podcast",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 38.89
+        }
+      },
+      {
+        "text": "2 repetition hallucinations — invents repeated words.",
+        "category": "commonvoice",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Eh, bagilah aku sikit. Nak makan belilah sendiri.",
+          "split": "train",
+          "wer": 87.5
+        }
+      }
+    ]
+  },
+  "universal-2": {
+    "model_id": "universal-2",
+    "category_stats": {
+      "telephony": {
+        "wer": 56.18,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 45.69,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 6.52,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 5.78,
+        "n": 141
+      },
+      "singing": {
+        "wer": 33.33,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 24.54,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 14.38,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 10.93,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 2.46,
+        "n": 51
+      },
+      "drama": {
+        "wer": 16.94,
+        "n": 52
+      },
+      "animation": {
+        "wer": 7.72,
+        "n": 50
+      },
+      "news": {
+        "wer": 35.0,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 14.86,
+      "sub_rate": 9.09,
+      "ins_rate": 0.6,
+      "del_rate": 5.17,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "read-speech: 2.5% WER — near-perfect transcription.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "commonvoice: 5.8% WER — strong performance on general speech.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Overall insertion rate: 0.6% Ins — rarely hallucinates extra words.",
+        "category": "OVERALL ACCURACY"
+      },
+      {
+        "text": "No script-mismatch hallucination detected — avoids language confusion.",
+        "category": "OVERALL ACCURACY"
+      },
+      {
+        "text": "No reduplication merges detected — preserves word repetitions.",
+        "category": "OVERALL ACCURACY"
+      }
+    ],
+    "weak": [
+      {
+        "text": "telephony: 1 blank output (0.1%) — hard failure, no prediction.",
+        "category": "telephony",
+        "pattern": "empty_predictions",
+        "evidence": {
+          "ref": "That would be 15th December 1998.",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "28.7% of deletions are filler words — misses common speech fillers.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 44.44
+        }
+      },
+      {
+        "text": "4 instances of repetition hallucination — invents repeated words.",
+        "category": "OVERALL ACCURACY",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Which is yang warna, tadi dia warna putih tu. Yang dia ada dua pedal. Satu lagi, dia pakai beaded. Beaded tu yang manik-manik-manik dalam tali tu. Untuk freestyle. Satu lagi, kita ada category untuk speed.",
+          "split": "train",
+          "wer": 27.03
+        }
+      },
+      {
+        "text": "telephony: 56.2% WER — worst performance, often misses words.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "Can you transfer me to a human agent?",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "short-inputs: 45.7% WER, 37.1% sub — frequently confuses words.",
+        "category": "short-inputs",
+        "evidence": {
+          "ref": "really ah",
+          "split": "train",
+          "wer": 100.0
+        }
+      }
+    ]
+  },
+  "universal-3-5-pro": {
+    "model_id": "universal-3-5-pro",
+    "category_stats": {
+      "telephony": {
+        "wer": 56.18,
+        "n": 66
+      },
+      "short-inputs": {
+        "wer": 45.69,
+        "n": 52
+      },
+      "fleurs": {
+        "wer": 6.52,
+        "n": 153
+      },
+      "commonvoice": {
+        "wer": 5.78,
+        "n": 141
+      },
+      "singing": {
+        "wer": 33.79,
+        "n": 51
+      },
+      "street interview": {
+        "wer": 24.54,
+        "n": 48
+      },
+      "podcast": {
+        "wer": 14.38,
+        "n": 52
+      },
+      "parliament": {
+        "wer": 10.93,
+        "n": 52
+      },
+      "read-speech": {
+        "wer": 2.46,
+        "n": 51
+      },
+      "drama": {
+        "wer": 16.94,
+        "n": 52
+      },
+      "animation": {
+        "wer": 7.87,
+        "n": 50
+      },
+      "news": {
+        "wer": 35.0,
+        "n": 52
+      }
+    },
+    "overall": {
+      "wer": 14.88,
+      "sub_rate": 9.1,
+      "ins_rate": 0.61,
+      "del_rate": 5.17,
+      "n": 820
+    },
+    "strong": [
+      {
+        "text": "read-speech: 2.5% WER — near-perfect transcription.",
+        "category": "read-speech",
+        "evidence": {
+          "ref": "Siapakah yang menulis karangan ini? Karangan ini tiada nama.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "commonvoice: 5.8% WER — strong performance on general speech.",
+        "category": "commonvoice",
+        "evidence": {
+          "ref": "Percutian yang saya anggap ideal ialah percutian di pulau. Ini adalah kerana pulau adalah 1 tempat yang terasing daripada kawasan bandar.  Jadi, bagi sesiapa yang bercuti di pulau, mereka tidak akan berasa tertekan kerana jauh daripada sumber tekanan iaitu kerja ataupun sekolah mereka.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "fleurs: 6.5% WER — good accuracy on diverse speech.",
+        "category": "fleurs",
+        "evidence": {
+          "ref": "34% daripada mereka dalam tinjauan ini berpendapat, inginkan Ratu Elizabeth II menjadi raja terakhir Australia.",
+          "split": "train",
+          "wer": 0.0
+        }
+      },
+      {
+        "text": "Overall: 0.6% Ins — rarely hallucinates extra words.",
+        "category": "Overall"
+      }
+    ],
+    "weak": [
+      {
+        "text": "telephony: 56.2% WER — fails completely on phone calls.",
+        "category": "telephony",
+        "evidence": {
+          "ref": "Can you transfer me to a human agent?",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "Overall: 28.7% of deletions are filler words.",
+        "category": "Overall",
+        "pattern": "filler_word_deletions",
+        "evidence": {
+          "ref": "Apa bagus dia ada yang tak bagus dia. Depends lah. Depends pada individu. Haa, aa ah, individu lah.",
+          "split": "train",
+          "wer": 44.44
+        }
+      },
+      {
+        "text": "telephony: 1 blank output — hard failure on phone calls.",
+        "category": "telephony",
+        "pattern": "empty_predictions",
+        "evidence": {
+          "ref": "That would be 15th December 1998.",
+          "split": "train",
+          "wer": 100.0
+        }
+      },
+      {
+        "text": "Overall: 4 repetition hallucinations — model repeats words.",
+        "category": "Overall",
+        "pattern": "repetition_hallucinations",
+        "evidence": {
+          "ref": "Which is yang warna, tadi dia warna putih tu. Yang dia ada dua pedal. Satu lagi, dia pakai beaded. Beaded tu yang manik-manik-manik dalam tali tu. Untuk freestyle. Satu lagi, kita ada category untuk speed.",
+          "split": "train",
+          "wer": 27.03
+        }
+      },
+      {
+        "text": "Overall: 14.9% WER — ranks 11th out of 17 peers.",
+        "category": "Overall"
+      }
+    ]
+  }
+}

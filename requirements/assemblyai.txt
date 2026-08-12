@@ -1,0 +1,2 @@
+# AssemblyAI Speech-to-Text
+assemblyai>=1.0.0

@@ -1,0 +1,6 @@
+# Core dependencies — always required
+datasets>=2.19.0
+soundfile>=0.12.1
+numpy>=1.24.0
+evaluate>=0.4.0
+requests>=2.31.0

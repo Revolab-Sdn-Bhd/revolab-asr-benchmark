@@ -1,0 +1,2283 @@
+{
+  "per_model": {
+    "Qwen/Qwen3-ASR-0.6B": [
+      {
+        "word": "ah",
+        "count": 97
+      },
+      {
+        "word": "um",
+        "count": 22
+      },
+      {
+        "word": "di",
+        "count": 13
+      },
+      {
+        "word": "lah",
+        "count": 10
+      },
+      {
+        "word": "tak",
+        "count": 10
+      },
+      {
+        "word": "i",
+        "count": 10
+      },
+      {
+        "word": "yang",
+        "count": 9
+      },
+      {
+        "word": "apa",
+        "count": 9
+      },
+      {
+        "word": "ha",
+        "count": 9
+      },
+      {
+        "word": "dia",
+        "count": 9
+      },
+      {
+        "word": "you",
+        "count": 8
+      },
+      {
+        "word": "ke",
+        "count": 8
+      },
+      {
+        "word": "ya",
+        "count": 7
+      },
+      {
+        "word": "nak",
+        "count": 7
+      },
+      {
+        "word": "cerita",
+        "count": 6
+      },
+      {
+        "word": "itu",
+        "count": 6
+      },
+      {
+        "word": "p",
+        "count": 6
+      },
+      {
+        "word": "hmm",
+        "count": 6
+      },
+      {
+        "word": "je",
+        "count": 5
+      },
+      {
+        "word": "and",
+        "count": 5
+      },
+      {
+        "word": "lepas",
+        "count": 4
+      },
+      {
+        "word": "so",
+        "count": 4
+      },
+      {
+        "word": "kan",
+        "count": 4
+      },
+      {
+        "word": "teng",
+        "count": 4
+      },
+      {
+        "word": "ini",
+        "count": 4
+      },
+      {
+        "word": "saya",
+        "count": 4
+      },
+      {
+        "word": "dan",
+        "count": 4
+      },
+      {
+        "word": "a",
+        "count": 4
+      },
+      {
+        "word": "s",
+        "count": 4
+      },
+      {
+        "word": "ada",
+        "count": 4
+      },
+      {
+        "word": "pun",
+        "count": 3
+      },
+      {
+        "word": "batu",
+        "count": 3
+      },
+      {
+        "word": "didi",
+        "count": 3
+      },
+      {
+        "word": "kau",
+        "count": 3
+      },
+      {
+        "word": "tahu",
+        "count": 3
+      },
+      {
+        "word": "boleh",
+        "count": 3
+      },
+      {
+        "word": "dah",
+        "count": 3
+      },
+      {
+        "word": "adik",
+        "count": 3
+      },
+      {
+        "word": "aku",
+        "count": 3
+      },
+      {
+        "word": "macam",
+        "count": 3
+      },
+      {
+        "word": "kalau",
+        "count": 3
+      },
+      {
+        "word": "eh",
+        "count": 3
+      },
+      {
+        "word": "kena",
+        "count": 3
+      },
+      {
+        "word": "dua",
+        "count": 3
+      },
+      {
+        "word": "k",
+        "count": 3
+      },
+      {
+        "word": "nya",
+        "count": 3
+      },
+      {
+        "word": "mem",
+        "count": 3
+      },
+      {
+        "word": "sebab",
+        "count": 3
+      },
+      {
+        "word": "depends",
+        "count": 2
+      },
+      {
+        "word": "tiba",
+        "count": 2
+      },
+      {
+        "word": "pukul",
+        "count": 2
+      },
+      {
+        "word": "terpaksa",
+        "count": 2
+      },
+      {
+        "word": "panel",
+        "count": 2
+      },
+      {
+        "word": "main",
+        "count": 2
+      },
+      {
+        "word": "men",
+        "count": 2
+      },
+      {
+        "word": "su",
+        "count": 2
+      },
+      {
+        "word": "amar",
+        "count": 2
+      },
+      {
+        "word": "kita",
+        "count": 2
+      },
+      {
+        "word": "berjuta",
+        "count": 2
+      },
+      {
+        "word": "tiktok",
+        "count": 2
+      },
+      {
+        "word": "cuba",
+        "count": 2
+      },
+      {
+        "word": "r",
+        "count": 2
+      },
+      {
+        "word": "sebenar",
+        "count": 2
+      },
+      {
+        "word": "u",
+        "count": 2
+      },
+      {
+        "word": "kerja",
+        "count": 2
+      },
+      {
+        "word": "banyak",
+        "count": 2
+      },
+      {
+        "word": "ok",
+        "count": 2
+      },
+      {
+        "word": "then",
+        "count": 2
+      },
+      {
+        "word": "pasal",
+        "count": 2
+      },
+      {
+        "word": "is",
+        "count": 2
+      },
+      {
+        "word": "empat",
+        "count": 2
+      },
+      {
+        "word": "rang",
+        "count": 2
+      },
+      {
+        "word": "undang",
+        "count": 2
+      }
+    ],
+    "Qwen/Qwen3-ASR-1.7B": [
+      {
+        "word": "ah",
+        "count": 125
+      },
+      {
+        "word": "um",
+        "count": 23
+      },
+      {
+        "word": "dia",
+        "count": 10
+      },
+      {
+        "word": "ha",
+        "count": 9
+      },
+      {
+        "word": "hmm",
+        "count": 9
+      },
+      {
+        "word": "you",
+        "count": 8
+      },
+      {
+        "word": "apa",
+        "count": 6
+      },
+      {
+        "word": "tak",
+        "count": 5
+      },
+      {
+        "word": "itu",
+        "count": 5
+      },
+      {
+        "word": "dua",
+        "count": 5
+      },
+      {
+        "word": "ya",
+        "count": 5
+      },
+      {
+        "word": "yang",
+        "count": 4
+      },
+      {
+        "word": "di",
+        "count": 4
+      },
+      {
+        "word": "and",
+        "count": 4
+      },
+      {
+        "word": "kau",
+        "count": 4
+      },
+      {
+        "word": "je",
+        "count": 4
+      },
+      {
+        "word": "ada",
+        "count": 4
+      },
+      {
+        "word": "eh",
+        "count": 4
+      },
+      {
+        "word": "ke",
+        "count": 4
+      },
+      {
+        "word": "i",
+        "count": 4
+      },
+      {
+        "word": "lepas",
+        "count": 3
+      },
+      {
+        "word": "lah",
+        "count": 3
+      },
+      {
+        "word": "kan",
+        "count": 3
+      },
+      {
+        "word": "teng",
+        "count": 3
+      },
+      {
+        "word": "tiktok",
+        "count": 3
+      },
+      {
+        "word": "ribu",
+        "count": 3
+      },
+      {
+        "word": "cerita",
+        "count": 3
+      },
+      {
+        "word": "kalau",
+        "count": 3
+      },
+      {
+        "word": "so",
+        "count": 3
+      },
+      {
+        "word": "mem",
+        "count": 3
+      },
+      {
+        "word": "sama",
+        "count": 2
+      },
+      {
+        "word": "panel",
+        "count": 2
+      },
+      {
+        "word": "ini",
+        "count": 2
+      },
+      {
+        "word": "p",
+        "count": 2
+      },
+      {
+        "word": "men",
+        "count": 2
+      },
+      {
+        "word": "dah",
+        "count": 2
+      },
+      {
+        "word": "bot",
+        "count": 2
+      },
+      {
+        "word": "aku",
+        "count": 2
+      },
+      {
+        "word": "benda",
+        "count": 2
+      },
+      {
+        "word": "macam",
+        "count": 2
+      },
+      {
+        "word": "nya",
+        "count": 2
+      },
+      {
+        "word": "tahu",
+        "count": 2
+      },
+      {
+        "word": "sit",
+        "count": 2
+      },
+      {
+        "word": "punya",
+        "count": 2
+      },
+      {
+        "word": "u",
+        "count": 2
+      },
+      {
+        "word": "kerja",
+        "count": 2
+      },
+      {
+        "word": "kat",
+        "count": 2
+      },
+      {
+        "word": "nak",
+        "count": 2
+      },
+      {
+        "word": "juga",
+        "count": 2
+      },
+      {
+        "word": "ok",
+        "count": 2
+      },
+      {
+        "word": "can",
+        "count": 2
+      },
+      {
+        "word": "tiga",
+        "count": 2
+      },
+      {
+        "word": "akan",
+        "count": 2
+      },
+      {
+        "word": "sebab",
+        "count": 2
+      },
+      {
+        "word": "bila",
+        "count": 2
+      }
+    ],
+    "Revolab/Malaysian-Qwen3-ASR-1.7B": [
+      {
+        "word": "ah",
+        "count": 50
+      },
+      {
+        "word": "um",
+        "count": 7
+      },
+      {
+        "word": "ha",
+        "count": 6
+      },
+      {
+        "word": "p",
+        "count": 5
+      },
+      {
+        "word": "ya",
+        "count": 5
+      },
+      {
+        "word": "i",
+        "count": 4
+      },
+      {
+        "word": "nya",
+        "count": 3
+      },
+      {
+        "word": "di",
+        "count": 3
+      },
+      {
+        "word": "k",
+        "count": 3
+      },
+      {
+        "word": "u",
+        "count": 3
+      },
+      {
+        "word": "mem",
+        "count": 3
+      },
+      {
+        "word": "tak",
+        "count": 3
+      },
+      {
+        "word": "men",
+        "count": 2
+      },
+      {
+        "word": "huh",
+        "count": 2
+      },
+      {
+        "word": "bot",
+        "count": 2
+      },
+      {
+        "word": "ada",
+        "count": 2
+      },
+      {
+        "word": "yang",
+        "count": 2
+      },
+      {
+        "word": "s",
+        "count": 2
+      },
+      {
+        "word": "sit",
+        "count": 2
+      },
+      {
+        "word": "g",
+        "count": 2
+      },
+      {
+        "word": "n",
+        "count": 2
+      },
+      {
+        "word": "you",
+        "count": 2
+      },
+      {
+        "word": "eh",
+        "count": 2
+      }
+    ],
+    "gemini-2.5-flash": [
+      {
+        "word": "ah",
+        "count": 93
+      },
+      {
+        "word": "um",
+        "count": 20
+      },
+      {
+        "word": "i",
+        "count": 7
+      },
+      {
+        "word": "ya",
+        "count": 7
+      },
+      {
+        "word": "ini",
+        "count": 6
+      },
+      {
+        "word": "hmm",
+        "count": 5
+      },
+      {
+        "word": "lah",
+        "count": 4
+      },
+      {
+        "word": "you",
+        "count": 4
+      },
+      {
+        "word": "eh",
+        "count": 4
+      },
+      {
+        "word": "a",
+        "count": 4
+      },
+      {
+        "word": "ha",
+        "count": 4
+      },
+      {
+        "word": "ok",
+        "count": 3
+      },
+      {
+        "word": "two",
+        "count": 3
+      },
+      {
+        "word": "dua",
+        "count": 3
+      },
+      {
+        "word": "mem",
+        "count": 3
+      },
+      {
+        "word": "yang",
+        "count": 2
+      },
+      {
+        "word": "kad",
+        "count": 2
+      },
+      {
+        "word": "kau",
+        "count": 2
+      },
+      {
+        "word": "how",
+        "count": 2
+      },
+      {
+        "word": "teng",
+        "count": 2
+      },
+      {
+        "word": "one",
+        "count": 2
+      },
+      {
+        "word": "tak",
+        "count": 2
+      },
+      {
+        "word": "men",
+        "count": 2
+      },
+      {
+        "word": "itu",
+        "count": 2
+      },
+      {
+        "word": "credit",
+        "count": 2
+      },
+      {
+        "word": "bot",
+        "count": 2
+      },
+      {
+        "word": "macam",
+        "count": 2
+      },
+      {
+        "word": "tiktok",
+        "count": 2
+      },
+      {
+        "word": "puluh",
+        "count": 2
+      },
+      {
+        "word": "ada",
+        "count": 2
+      },
+      {
+        "word": "buat",
+        "count": 2
+      },
+      {
+        "word": "sit",
+        "count": 2
+      },
+      {
+        "word": "can",
+        "count": 2
+      },
+      {
+        "word": "di",
+        "count": 2
+      },
+      {
+        "word": "u",
+        "count": 2
+      },
+      {
+        "word": "ke",
+        "count": 2
+      },
+      {
+        "word": "not",
+        "count": 2
+      },
+      {
+        "word": "me",
+        "count": 2
+      },
+      {
+        "word": "mak",
+        "count": 2
+      },
+      {
+        "word": "mind",
+        "count": 2
+      },
+      {
+        "word": "never",
+        "count": 2
+      },
+      {
+        "word": "its",
+        "count": 2
+      },
+      {
+        "word": "just",
+        "count": 2
+      },
+      {
+        "word": "apa",
+        "count": 2
+      },
+      {
+        "word": "wait",
+        "count": 2
+      },
+      {
+        "word": "im",
+        "count": 2
+      }
+    ],
+    "gemini-2.5-pro": [
+      {
+        "word": "ah",
+        "count": 67
+      },
+      {
+        "word": "um",
+        "count": 17
+      },
+      {
+        "word": "ya",
+        "count": 8
+      },
+      {
+        "word": "i",
+        "count": 6
+      },
+      {
+        "word": "ha",
+        "count": 5
+      },
+      {
+        "word": "lah",
+        "count": 4
+      },
+      {
+        "word": "you",
+        "count": 4
+      },
+      {
+        "word": "ok",
+        "count": 3
+      },
+      {
+        "word": "ini",
+        "count": 3
+      },
+      {
+        "word": "ada",
+        "count": 3
+      },
+      {
+        "word": "can",
+        "count": 3
+      },
+      {
+        "word": "mem",
+        "count": 3
+      },
+      {
+        "word": "betul",
+        "count": 2
+      },
+      {
+        "word": "kau",
+        "count": 2
+      },
+      {
+        "word": "the",
+        "count": 2
+      },
+      {
+        "word": "in",
+        "count": 2
+      },
+      {
+        "word": "one",
+        "count": 2
+      },
+      {
+        "word": "men",
+        "count": 2
+      },
+      {
+        "word": "me",
+        "count": 2
+      },
+      {
+        "word": "bot",
+        "count": 2
+      },
+      {
+        "word": "dua",
+        "count": 2
+      },
+      {
+        "word": "eh",
+        "count": 2
+      },
+      {
+        "word": "buat",
+        "count": 2
+      },
+      {
+        "word": "sit",
+        "count": 2
+      },
+      {
+        "word": "a",
+        "count": 2
+      },
+      {
+        "word": "five",
+        "count": 2
+      },
+      {
+        "word": "im",
+        "count": 2
+      },
+      {
+        "word": "nya",
+        "count": 2
+      },
+      {
+        "word": "di",
+        "count": 2
+      },
+      {
+        "word": "is",
+        "count": 2
+      },
+      {
+        "word": "what",
+        "count": 2
+      },
+      {
+        "word": "u",
+        "count": 2
+      },
+      {
+        "word": "ringgit",
+        "count": 2
+      },
+      {
+        "word": "are",
+        "count": 2
+      },
+      {
+        "word": "ke",
+        "count": 2
+      },
+      {
+        "word": "aku",
+        "count": 2
+      }
+    ],
+    "nova-3": [
+      {
+        "word": "ah",
+        "count": 153
+      },
+      {
+        "word": "yang",
+        "count": 38
+      },
+      {
+        "word": "i",
+        "count": 34
+      },
+      {
+        "word": "apa",
+        "count": 29
+      },
+      {
+        "word": "di",
+        "count": 27
+      },
+      {
+        "word": "um",
+        "count": 25
+      },
+      {
+        "word": "ini",
+        "count": 22
+      },
+      {
+        "word": "itu",
+        "count": 22
+      },
+      {
+        "word": "dan",
+        "count": 22
+      },
+      {
+        "word": "so",
+        "count": 21
+      },
+      {
+        "word": "you",
+        "count": 21
+      },
+      {
+        "word": "ya",
+        "count": 20
+      },
+      {
+        "word": "lah",
+        "count": 19
+      },
+      {
+        "word": "dia",
+        "count": 19
+      },
+      {
+        "word": "tak",
+        "count": 19
+      },
+      {
+        "word": "ok",
+        "count": 18
+      },
+      {
+        "word": "nak",
+        "count": 17
+      },
+      {
+        "word": "saya",
+        "count": 17
+      },
+      {
+        "word": "a",
+        "count": 16
+      },
+      {
+        "word": "ada",
+        "count": 16
+      },
+      {
+        "word": "the",
+        "count": 16
+      },
+      {
+        "word": "nya",
+        "count": 15
+      },
+      {
+        "word": "kita",
+        "count": 13
+      },
+      {
+        "word": "to",
+        "count": 13
+      },
+      {
+        "word": "and",
+        "count": 12
+      },
+      {
+        "word": "ke",
+        "count": 12
+      },
+      {
+        "word": "ha",
+        "count": 11
+      },
+      {
+        "word": "kalau",
+        "count": 11
+      },
+      {
+        "word": "hmm",
+        "count": 11
+      },
+      {
+        "word": "buat",
+        "count": 10
+      },
+      {
+        "word": "boleh",
+        "count": 10
+      },
+      {
+        "word": "kanak",
+        "count": 10
+      },
+      {
+        "word": "untuk",
+        "count": 10
+      },
+      {
+        "word": "dah",
+        "count": 10
+      },
+      {
+        "word": "dengan",
+        "count": 10
+      },
+      {
+        "word": "orang",
+        "count": 9
+      },
+      {
+        "word": "me",
+        "count": 8
+      },
+      {
+        "word": "can",
+        "count": 8
+      },
+      {
+        "word": "kau",
+        "count": 8
+      },
+      {
+        "word": "one",
+        "count": 8
+      },
+      {
+        "word": "sama",
+        "count": 8
+      },
+      {
+        "word": "juga",
+        "count": 8
+      },
+      {
+        "word": "dua",
+        "count": 8
+      },
+      {
+        "word": "aku",
+        "count": 8
+      },
+      {
+        "word": "eh",
+        "count": 8
+      },
+      {
+        "word": "im",
+        "count": 8
+      },
+      {
+        "word": "oleh",
+        "count": 7
+      },
+      {
+        "word": "anak",
+        "count": 7
+      },
+      {
+        "word": "bukan",
+        "count": 7
+      },
+      {
+        "word": "undang",
+        "count": 7
+      },
+      {
+        "word": "mana",
+        "count": 7
+      },
+      {
+        "word": "that",
+        "count": 7
+      },
+      {
+        "word": "tapi",
+        "count": 7
+      },
+      {
+        "word": "pada",
+        "count": 6
+      },
+      {
+        "word": "je",
+        "count": 6
+      },
+      {
+        "word": "semua",
+        "count": 6
+      },
+      {
+        "word": "jadi",
+        "count": 6
+      },
+      {
+        "word": "this",
+        "count": 6
+      },
+      {
+        "word": "lain",
+        "count": 6
+      },
+      {
+        "word": "have",
+        "count": 6
+      },
+      {
+        "word": "puluh",
+        "count": 6
+      },
+      {
+        "word": "malaysia",
+        "count": 6
+      },
+      {
+        "word": "atau",
+        "count": 6
+      },
+      {
+        "word": "satu",
+        "count": 6
+      },
+      {
+        "word": "akan",
+        "count": 6
+      },
+      {
+        "word": "sekarang",
+        "count": 6
+      },
+      {
+        "word": "just",
+        "count": 6
+      },
+      {
+        "word": "then",
+        "count": 6
+      },
+      {
+        "word": "macam",
+        "count": 6
+      },
+      {
+        "word": "daripada",
+        "count": 5
+      },
+      {
+        "word": "tiga",
+        "count": 5
+      },
+      {
+        "word": "it",
+        "count": 5
+      },
+      {
+        "word": "kan",
+        "count": 5
+      },
+      {
+        "word": "p",
+        "count": 5
+      },
+      {
+        "word": "year",
+        "count": 5
+      },
+      {
+        "word": "kasih",
+        "count": 5
+      },
+      {
+        "word": "terima",
+        "count": 5
+      },
+      {
+        "word": "of",
+        "count": 5
+      },
+      {
+        "word": "mereka",
+        "count": 5
+      },
+      {
+        "word": "ahli",
+        "count": 5
+      },
+      {
+        "word": "negara",
+        "count": 5
+      },
+      {
+        "word": "not",
+        "count": 5
+      },
+      {
+        "word": "dapat",
+        "count": 5
+      },
+      {
+        "word": "baru",
+        "count": 5
+      },
+      {
+        "word": "lepas",
+        "count": 4
+      },
+      {
+        "word": "bagi",
+        "count": 4
+      },
+      {
+        "word": "pergi",
+        "count": 4
+      },
+      {
+        "word": "sorang",
+        "count": 4
+      },
+      {
+        "word": "sampai",
+        "count": 4
+      },
+      {
+        "word": "hari",
+        "count": 4
+      },
+      {
+        "word": "filem",
+        "count": 4
+      },
+      {
+        "word": "benda",
+        "count": 4
+      },
+      {
+        "word": "like",
+        "count": 4
+      },
+      {
+        "word": "sebab",
+        "count": 4
+      },
+      {
+        "word": "dari",
+        "count": 4
+      },
+      {
+        "word": "ribu",
+        "count": 4
+      },
+      {
+        "word": "thats",
+        "count": 4
+      },
+      {
+        "word": "for",
+        "count": 4
+      },
+      {
+        "word": "masing",
+        "count": 4
+      },
+      {
+        "word": "antara",
+        "count": 4
+      }
+    ],
+    "openai/whisper-large-v3": [
+      {
+        "word": "ah",
+        "count": 143
+      },
+      {
+        "word": "um",
+        "count": 27
+      },
+      {
+        "word": "ya",
+        "count": 17
+      },
+      {
+        "word": "ha",
+        "count": 13
+      },
+      {
+        "word": "i",
+        "count": 11
+      },
+      {
+        "word": "apa",
+        "count": 8
+      },
+      {
+        "word": "di",
+        "count": 7
+      },
+      {
+        "word": "yang",
+        "count": 7
+      },
+      {
+        "word": "hmm",
+        "count": 7
+      },
+      {
+        "word": "ini",
+        "count": 6
+      },
+      {
+        "word": "you",
+        "count": 6
+      },
+      {
+        "word": "dan",
+        "count": 5
+      },
+      {
+        "word": "itu",
+        "count": 5
+      },
+      {
+        "word": "the",
+        "count": 5
+      },
+      {
+        "word": "so",
+        "count": 4
+      },
+      {
+        "word": "one",
+        "count": 4
+      },
+      {
+        "word": "can",
+        "count": 4
+      },
+      {
+        "word": "nya",
+        "count": 3
+      },
+      {
+        "word": "lah",
+        "count": 3
+      },
+      {
+        "word": "have",
+        "count": 3
+      },
+      {
+        "word": "ada",
+        "count": 3
+      },
+      {
+        "word": "kau",
+        "count": 3
+      },
+      {
+        "word": "ok",
+        "count": 3
+      },
+      {
+        "word": "p",
+        "count": 3
+      },
+      {
+        "word": "mana",
+        "count": 3
+      },
+      {
+        "word": "he",
+        "count": 3
+      },
+      {
+        "word": "eh",
+        "count": 3
+      },
+      {
+        "word": "tahu",
+        "count": 3
+      },
+      {
+        "word": "dah",
+        "count": 3
+      },
+      {
+        "word": "ke",
+        "count": 3
+      },
+      {
+        "word": "mem",
+        "count": 3
+      },
+      {
+        "word": "and",
+        "count": 3
+      },
+      {
+        "word": "mu",
+        "count": 3
+      },
+      {
+        "word": "pertua",
+        "count": 2
+      },
+      {
+        "word": "tuan",
+        "count": 2
+      },
+      {
+        "word": "kat",
+        "count": 2
+      },
+      {
+        "word": "teng",
+        "count": 2
+      },
+      {
+        "word": "men",
+        "count": 2
+      },
+      {
+        "word": "buat",
+        "count": 2
+      },
+      {
+        "word": "bot",
+        "count": 2
+      },
+      {
+        "word": "saya",
+        "count": 2
+      },
+      {
+        "word": "macam",
+        "count": 2
+      },
+      {
+        "word": "dia",
+        "count": 2
+      },
+      {
+        "word": "dua",
+        "count": 2
+      },
+      {
+        "word": "that",
+        "count": 2
+      },
+      {
+        "word": "sit",
+        "count": 2
+      },
+      {
+        "word": "malaysia",
+        "count": 2
+      },
+      {
+        "word": "zero",
+        "count": 2
+      },
+      {
+        "word": "two",
+        "count": 2
+      },
+      {
+        "word": "tak",
+        "count": 2
+      },
+      {
+        "word": "u",
+        "count": 2
+      },
+      {
+        "word": "its",
+        "count": 2
+      },
+      {
+        "word": "not",
+        "count": 2
+      },
+      {
+        "word": "mind",
+        "count": 2
+      },
+      {
+        "word": "never",
+        "count": 2
+      },
+      {
+        "word": "to",
+        "count": 2
+      },
+      {
+        "word": "mereka",
+        "count": 2
+      },
+      {
+        "word": "kuasa",
+        "count": 2
+      },
+      {
+        "word": "12",
+        "count": 2
+      },
+      {
+        "word": "nak",
+        "count": 2
+      },
+      {
+        "word": "a",
+        "count": 2
+      },
+      {
+        "word": "for",
+        "count": 2
+      },
+      {
+        "word": "sama",
+        "count": 2
+      }
+    ],
+    "revolab-zipformer-ms-telephony": [
+      {
+        "word": "ah",
+        "count": 121
+      },
+      {
+        "word": "um",
+        "count": 24
+      },
+      {
+        "word": "di",
+        "count": 9
+      },
+      {
+        "word": "ha",
+        "count": 9
+      },
+      {
+        "word": "aku",
+        "count": 7
+      },
+      {
+        "word": "yang",
+        "count": 5
+      },
+      {
+        "word": "nya",
+        "count": 4
+      },
+      {
+        "word": "ringgit",
+        "count": 4
+      },
+      {
+        "word": "kau",
+        "count": 4
+      },
+      {
+        "word": "p",
+        "count": 4
+      },
+      {
+        "word": "mu",
+        "count": 4
+      },
+      {
+        "word": "hmm",
+        "count": 4
+      },
+      {
+        "word": "itu",
+        "count": 4
+      },
+      {
+        "word": "ya",
+        "count": 4
+      },
+      {
+        "word": "tiba",
+        "count": 3
+      },
+      {
+        "word": "i",
+        "count": 3
+      },
+      {
+        "word": "apa",
+        "count": 3
+      },
+      {
+        "word": "dan",
+        "count": 3
+      },
+      {
+        "word": "je",
+        "count": 3
+      },
+      {
+        "word": "untuk",
+        "count": 3
+      },
+      {
+        "word": "mem",
+        "count": 3
+      },
+      {
+        "word": "ke",
+        "count": 3
+      },
+      {
+        "word": "cerita",
+        "count": 2
+      },
+      {
+        "word": "pada",
+        "count": 2
+      },
+      {
+        "word": "tiada",
+        "count": 2
+      },
+      {
+        "word": "have",
+        "count": 2
+      },
+      {
+        "word": "didi",
+        "count": 2
+      },
+      {
+        "word": "da",
+        "count": 2
+      },
+      {
+        "word": "teng",
+        "count": 2
+      },
+      {
+        "word": "ini",
+        "count": 2
+      },
+      {
+        "word": "men",
+        "count": 2
+      },
+      {
+        "word": "and",
+        "count": 2
+      },
+      {
+        "word": "huh",
+        "count": 2
+      },
+      {
+        "word": "hanya",
+        "count": 2
+      },
+      {
+        "word": "bot",
+        "count": 2
+      },
+      {
+        "word": "saya",
+        "count": 2
+      },
+      {
+        "word": "tak",
+        "count": 2
+      },
+      {
+        "word": "macam",
+        "count": 2
+      },
+      {
+        "word": "indah",
+        "count": 2
+      },
+      {
+        "word": "tahu",
+        "count": 2
+      },
+      {
+        "word": "k",
+        "count": 2
+      },
+      {
+        "word": "u",
+        "count": 2
+      },
+      {
+        "word": "then",
+        "count": 2
+      },
+      {
+        "word": "the",
+        "count": 2
+      },
+      {
+        "word": "liku",
+        "count": 2
+      },
+      {
+        "word": "dia",
+        "count": 2
+      }
+    ],
+    "scribe_v2": [
+      {
+        "word": "ah",
+        "count": 73
+      },
+      {
+        "word": "um",
+        "count": 9
+      },
+      {
+        "word": "di",
+        "count": 8
+      },
+      {
+        "word": "ha",
+        "count": 7
+      },
+      {
+        "word": "ya",
+        "count": 5
+      },
+      {
+        "word": "hmm",
+        "count": 4
+      },
+      {
+        "word": "dia",
+        "count": 3
+      },
+      {
+        "word": "a",
+        "count": 3
+      },
+      {
+        "word": "men",
+        "count": 2
+      },
+      {
+        "word": "bot",
+        "count": 2
+      },
+      {
+        "word": "ada",
+        "count": 2
+      },
+      {
+        "word": "dua",
+        "count": 2
+      },
+      {
+        "word": "nya",
+        "count": 2
+      },
+      {
+        "word": "u",
+        "count": 2
+      },
+      {
+        "word": "apa",
+        "count": 2
+      },
+      {
+        "word": "i",
+        "count": 2
+      },
+      {
+        "word": "ke",
+        "count": 2
+      },
+      {
+        "word": "batu",
+        "count": 2
+      }
+    ],
+    "universal-2": [
+      {
+        "word": "ah",
+        "count": 153
+      },
+      {
+        "word": "um",
+        "count": 26
+      },
+      {
+        "word": "di",
+        "count": 13
+      },
+      {
+        "word": "ha",
+        "count": 13
+      },
+      {
+        "word": "i",
+        "count": 13
+      },
+      {
+        "word": "apa",
+        "count": 11
+      },
+      {
+        "word": "yang",
+        "count": 11
+      },
+      {
+        "word": "ya",
+        "count": 11
+      },
+      {
+        "word": "so",
+        "count": 11
+      },
+      {
+        "word": "hmm",
+        "count": 10
+      },
+      {
+        "word": "itu",
+        "count": 8
+      },
+      {
+        "word": "ok",
+        "count": 8
+      },
+      {
+        "word": "aku",
+        "count": 7
+      },
+      {
+        "word": "tak",
+        "count": 6
+      },
+      {
+        "word": "saya",
+        "count": 6
+      },
+      {
+        "word": "ini",
+        "count": 6
+      },
+      {
+        "word": "the",
+        "count": 6
+      },
+      {
+        "word": "nya",
+        "count": 5
+      },
+      {
+        "word": "ke",
+        "count": 5
+      },
+      {
+        "word": "and",
+        "count": 5
+      },
+      {
+        "word": "can",
+        "count": 5
+      },
+      {
+        "word": "eh",
+        "count": 5
+      },
+      {
+        "word": "lah",
+        "count": 4
+      },
+      {
+        "word": "you",
+        "count": 4
+      },
+      {
+        "word": "tiga",
+        "count": 4
+      },
+      {
+        "word": "dan",
+        "count": 4
+      },
+      {
+        "word": "dia",
+        "count": 4
+      },
+      {
+        "word": "im",
+        "count": 4
+      },
+      {
+        "word": "tiba",
+        "count": 3
+      },
+      {
+        "word": "mana",
+        "count": 3
+      },
+      {
+        "word": "sebab",
+        "count": 3
+      },
+      {
+        "word": "nak",
+        "count": 3
+      },
+      {
+        "word": "buat",
+        "count": 3
+      },
+      {
+        "word": "be",
+        "count": 3
+      },
+      {
+        "word": "he",
+        "count": 3
+      },
+      {
+        "word": "what",
+        "count": 3
+      },
+      {
+        "word": "to",
+        "count": 3
+      },
+      {
+        "word": "one",
+        "count": 3
+      },
+      {
+        "word": "dah",
+        "count": 3
+      },
+      {
+        "word": "mem",
+        "count": 3
+      },
+      {
+        "word": "its",
+        "count": 3
+      },
+      {
+        "word": "dont",
+        "count": 3
+      },
+      {
+        "word": "pada",
+        "count": 2
+      },
+      {
+        "word": "kita",
+        "count": 2
+      },
+      {
+        "word": "semua",
+        "count": 2
+      },
+      {
+        "word": "punya",
+        "count": 2
+      },
+      {
+        "word": "tuan",
+        "count": 2
+      },
+      {
+        "word": "have",
+        "count": 2
+      },
+      {
+        "word": "untuk",
+        "count": 2
+      },
+      {
+        "word": "ada",
+        "count": 2
+      },
+      {
+        "word": "thank",
+        "count": 2
+      },
+      {
+        "word": "good",
+        "count": 2
+      },
+      {
+        "word": "teng",
+        "count": 2
+      },
+      {
+        "word": "two",
+        "count": 2
+      },
+      {
+        "word": "p",
+        "count": 2
+      },
+      {
+        "word": "men",
+        "count": 2
+      },
+      {
+        "word": "huh",
+        "count": 2
+      },
+      {
+        "word": "seri",
+        "count": 2
+      },
+      {
+        "word": "tan",
+        "count": 2
+      },
+      {
+        "word": "bot",
+        "count": 2
+      },
+      {
+        "word": "macam",
+        "count": 2
+      },
+      {
+        "word": "dua",
+        "count": 2
+      },
+      {
+        "word": "that",
+        "count": 2
+      },
+      {
+        "word": "if",
+        "count": 2
+      },
+      {
+        "word": "poin",
+        "count": 2
+      },
+      {
+        "word": "sit",
+        "count": 2
+      },
+      {
+        "word": "like",
+        "count": 2
+      },
+      {
+        "word": "zero",
+        "count": 2
+      },
+      {
+        "word": "u",
+        "count": 2
+      },
+      {
+        "word": "kat",
+        "count": 2
+      },
+      {
+        "word": "are",
+        "count": 2
+      },
+      {
+        "word": "mind",
+        "count": 2
+      },
+      {
+        "word": "never",
+        "count": 2
+      },
+      {
+        "word": "kau",
+        "count": 2
+      },
+      {
+        "word": "me",
+        "count": 2
+      },
+      {
+        "word": "think",
+        "count": 2
+      },
+      {
+        "word": "a",
+        "count": 2
+      },
+      {
+        "word": "sorry",
+        "count": 2
+      },
+      {
+        "word": "walau",
+        "count": 2
+      },
+      {
+        "word": "mu",
+        "count": 2
+      },
+      {
+        "word": "diri",
+        "count": 2
+      },
+      {
+        "word": "hah",
+        "count": 2
+      },
+      {
+        "word": "se",
+        "count": 2
+      },
+      {
+        "word": "rang",
+        "count": 2
+      },
+      {
+        "word": "rupa",
+        "count": 2
+      },
+      {
+        "word": "telefon",
+        "count": 2
+      },
+      {
+        "word": "lelaki",
+        "count": 2
+      },
+      {
+        "word": "sama",
+        "count": 2
+      }
+    ]
+  },
+  "common": [
+    {
+      "word": "ah",
+      "total_count": 1075,
+      "n_models": 10
+    },
+    {
+      "word": "um",
+      "total_count": 200,
+      "n_models": 10
+    },
+    {
+      "word": "i",
+      "total_count": 94,
+      "n_models": 10
+    },
+    {
+      "word": "ya",
+      "total_count": 89,
+      "n_models": 10
+    },
+    {
+      "word": "di",
+      "total_count": 88,
+      "n_models": 10
+    },
+    {
+      "word": "ha",
+      "total_count": 86,
+      "n_models": 10
+    },
+    {
+      "word": "ke",
+      "total_count": 41,
+      "n_models": 9
+    },
+    {
+      "word": "nya",
+      "total_count": 39,
+      "n_models": 9
+    },
+    {
+      "word": "ada",
+      "total_count": 38,
+      "n_models": 9
+    },
+    {
+      "word": "mem",
+      "total_count": 27,
+      "n_models": 9
+    },
+    {
+      "word": "u",
+      "total_count": 22,
+      "n_models": 10
+    },
+    {
+      "word": "men",
+      "total_count": 20,
+      "n_models": 10
+    },
+    {
+      "word": "bot",
+      "total_count": 18,
+      "n_models": 9
+    }
+  ]
+}
