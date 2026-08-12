@@ -282,53 +282,6 @@
     "degradation_pp": 3.74
   },
   {
-    "model_id": "gemini-3.1-pro-preview",
-    "num_rows": 820,
-    "by_noise": {
-      "clean": {
-        "n": 600,
-        "wer": 45.09,
-        "substitutions": 331,
-        "insertions": 4192,
-        "deletions": 124,
-        "ref_words": 10306,
-        "empties": 0,
-        "mean_snr_db": 40.5
-      },
-      "moderate": {
-        "n": 130,
-        "wer": 37.42,
-        "substitutions": 71,
-        "insertions": 851,
-        "deletions": 43,
-        "ref_words": 2579,
-        "empties": 0,
-        "mean_snr_db": 21.2
-      },
-      "noisy": {
-        "n": 90,
-        "wer": 23.11,
-        "substitutions": 86,
-        "insertions": 180,
-        "deletions": 27,
-        "ref_words": 1268,
-        "empties": 0,
-        "mean_snr_db": 9.2
-      },
-      "unknown": {
-        "n": 0,
-        "wer": 0.0,
-        "substitutions": 0,
-        "insertions": 0,
-        "deletions": 0,
-        "ref_words": 0,
-        "empties": 0,
-        "mean_snr_db": null
-      }
-    },
-    "degradation_pp": -21.98
-  },
-  {
     "model_id": "gemini-3.6-flash",
     "num_rows": 820,
     "by_noise": {
