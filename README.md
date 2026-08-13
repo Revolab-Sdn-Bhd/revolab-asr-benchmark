@@ -142,3 +142,13 @@ requirements/
   gemini.txt
   elevenlabs.txt
 ```
+
+## License
+
+The evaluation code in this repository is licensed under [MIT](LICENSE).
+
+The benchmark dataset's annotations (reference transcripts) are licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — see
+[`Revolab/ASR-Benchmark-Public`](https://huggingface.co/datasets/Revolab/ASR-Benchmark-Public)
+on Hugging Face. This covers the annotations only; the underlying audio
+retains the license of its original source.
