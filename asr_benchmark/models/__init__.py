@@ -8,7 +8,6 @@ from .elevenlabs_model import ElevenLabsModel
 from .deepgram_model import DeepgramModel
 from .assemblyai_model import AssemblyAIModel
 from .ilmu_model import IlmuModel
-from .qwen3_asr_gguf_model import Qwen3AsrGgufModel
 from .qwen_audio_model import QwenAudioModel
 
 MODEL_REGISTRY: dict[str, type[BaseASRModel]] = {
@@ -21,7 +20,6 @@ MODEL_REGISTRY: dict[str, type[BaseASRModel]] = {
     "deepgram": DeepgramModel,
     "assemblyai": AssemblyAIModel,
     "ilmu": IlmuModel,
-    "qwen3-asr-gguf": Qwen3AsrGgufModel,
     "qwen-audio": QwenAudioModel,
 }
 
@@ -36,7 +34,6 @@ __all__ = [
     "DeepgramModel",
     "AssemblyAIModel",
     "IlmuModel",
-    "Qwen3AsrGgufModel",
     "QwenAudioModel",
     "MODEL_REGISTRY",
 ]

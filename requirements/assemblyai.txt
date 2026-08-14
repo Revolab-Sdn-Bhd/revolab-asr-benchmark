@@ -1,2 +1,4 @@
 # AssemblyAI Speech-to-Text
+-r base.txt
 assemblyai>=1.0.0
+soundfile>=0.12.1
