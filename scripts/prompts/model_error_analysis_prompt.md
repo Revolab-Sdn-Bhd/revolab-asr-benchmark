@@ -10,7 +10,7 @@ Each row has: `reference`, `reference_normalized_final`, `prediction`, `predicti
 
 Run:
 ```
-uv run python scripts/error_analysis.py --all-models --results-dir results/public results/private --json-out /tmp/error_analysis.json
+python scripts/error_analysis.py --all-models --results-dir results/public results/private --json-out /tmp/error_analysis.json
 ```
 This gives you, per model: per-category WER/sub/ins/del, and pattern detectors already built and validated:
 - `script_mismatch` — non-Latin script output on Malay/English audio (language-ID collapse). Uses a proportion threshold so it catches full single-word wipeouts on short clips without false-triggering on one stray character in a long correct sentence.

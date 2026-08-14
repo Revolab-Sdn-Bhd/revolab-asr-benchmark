@@ -9,8 +9,8 @@ Output: results/malay-benchmark/word_confusion.json
   {model_id: [{ref, hyp, count}, ...sorted by count desc]}
 
 Usage:
-    uv run python scripts/compute_confusion.py
-    uv run python scripts/compute_confusion.py --top 20 --min-count 2
+    python scripts/compute_confusion.py
+    python scripts/compute_confusion.py --top 20 --min-count 2
 """
 
 from __future__ import annotations

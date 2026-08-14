@@ -23,7 +23,7 @@ if [[ -n "${MAX_SAMPLES}" ]]; then
     OUTPUT_DIR="results/smoke"
 fi
 
-uv run python run_eval.py \
+python run_eval.py \
     --model-type qwen \
     --model-id knoveleng/polyglot-lion-1.7b-v1.5 \
     --dataset "${DATASET}" \

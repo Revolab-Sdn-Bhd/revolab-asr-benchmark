@@ -1,25 +1,31 @@
 from setuptools import setup, find_packages
 
+# Versions are deliberately unpinned — install the latest of everything.
+# requirements/*.txt mirror these lists for pip -r users.
+BACKENDS = {
+    "whisper": ["torch", "transformers", "accelerate"],
+    "qwen": ["torch", "transformers", "accelerate", "librosa"],
+    "gemini": ["google-genai"],
+    "elevenlabs": ["elevenlabs"],
+    "deepgram": ["deepgram-sdk"],
+    "assemblyai": ["assemblyai"],
+}
+
 setup(
     name="asr-benchmark",
     version="0.1.0",
     packages=find_packages(),
     python_requires=">=3.10",
     install_requires=[
-        "datasets>=2.19.0",
-        "soundfile>=0.12.1",
-        "numpy>=1.24.0",
-        "python-dotenv>=1.0.0",
+        "datasets",
+        "soundfile",
+        "numpy",
+        "requests",
+        "python-dotenv",
+        "torchcodec",  # datasets>=4 decodes audio through it
     ],
     extras_require={
-        "whisper": ["torch>=2.2.0", "transformers>=4.40.0", "accelerate>=0.29.0"],
-        "qwen": ["torch>=2.2.0", "transformers>=4.45.0", "accelerate>=0.29.0", "librosa>=0.10.0"],
-        "gemini": ["google-generativeai>=0.7.0"],
-        "elevenlabs": ["elevenlabs>=1.0.0"],
-        "all": [
-            "torch>=2.2.0", "transformers>=4.45.0", "accelerate>=0.29.0",
-            "librosa>=0.10.0",
-            "google-generativeai>=0.7.0", "elevenlabs>=1.0.0",
-        ],
+        **BACKENDS,
+        "all": sorted({dep for deps in BACKENDS.values() for dep in deps}),
     },
 )

@@ -23,7 +23,7 @@ if [[ -n "${MAX_SAMPLES}" ]]; then
     OUTPUT_DIR="results/smoke"
 fi
 
-uv run python run_eval.py \
+python run_eval.py \
     --model-type whisper \
     --model-id openai/whisper-large-v3 \
     --dataset "${DATASET}" \

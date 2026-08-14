@@ -1,6 +1,6 @@
+# Qwen3-ASR / Qwen2-Audio (HF transformers)
 -r base.txt
-torch>=2.2.0
-transformers>=4.45.0
-accelerate>=0.29.0
-# Qwen2-Audio additional deps
-librosa>=0.10.0
+torch
+transformers
+accelerate
+librosa

@@ -60,9 +60,12 @@ same directory.
 ### 1. Install
 
 ```bash
-pip install -r requirements/base.txt   # core
-pip install -e .                       # makes `asr_benchmark` importable
-pip install -r requirements/whisper.txt  # the backend you want to run
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements/base.txt      # core
+pip install -e .                          # makes `asr_benchmark` importable
+pip install -r requirements/whisper.txt   # the backend you want to run
 ```
 
 ### 2. Authenticate with Hugging Face
@@ -83,8 +86,7 @@ bash scripts/models/run_whisper_large_v3.sh      # all 820    → results/public
 ```
 
 A capped run is treated as a smoke test and writes to `results/smoke/`, so it can
-never overwrite published results. Launchers use `uv run python`; without `uv`,
-use the plain CLI below.
+never overwrite published results.
 
 To sweep every model and build the leaderboard in one go:
 

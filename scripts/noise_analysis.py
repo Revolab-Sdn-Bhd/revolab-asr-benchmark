@@ -9,9 +9,9 @@ clean -> noisy WER *degradation*: a robust model holds up as audio gets harder,
 a fragile one falls off a cliff.
 
 Usage:
-    uv run python scripts/noise_analysis.py --results-dir results/public
-    uv run python scripts/noise_analysis.py --results-dir results/public --model-id qwen3-asr-0.6b-malay-aug-s12000-L0
-    uv run python scripts/noise_analysis.py --results-dir results/public --json-out results/public/noise_analysis.json
+    python scripts/noise_analysis.py --results-dir results/public
+    python scripts/noise_analysis.py --results-dir results/public --model-id qwen3-asr-0.6b-malay-aug-s12000-L0
+    python scripts/noise_analysis.py --results-dir results/public --json-out results/public/noise_analysis.json
 """
 
 from __future__ import annotations

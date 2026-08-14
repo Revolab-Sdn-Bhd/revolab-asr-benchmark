@@ -7,8 +7,8 @@ each backed by a specific sample from the benchmark as evidence.
 
 Usage:
     set -a && source .env && set +a
-    uv run python scripts/analyze_models.py
-    uv run python scripts/analyze_models.py --provider claude --model claude-sonnet-4-6
+    python scripts/analyze_models.py
+    python scripts/analyze_models.py --provider claude --model claude-sonnet-4-6
 """
 
 from __future__ import annotations

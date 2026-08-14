@@ -24,7 +24,7 @@ if [[ -n "${MAX_SAMPLES}" ]]; then
     OUTPUT_DIR="results/smoke"
 fi
 
-uv run python run_eval.py \
+python run_eval.py \
     --model-type revolab-api \
     --model-id aisyah-1.0-pro \
     --dataset "${DATASET}" \

@@ -107,7 +107,7 @@ echo ""
 echo "============================================================"
 echo " Generating leaderboard from ${OUTPUT_DIR}"
 echo "============================================================"
-uv run python scripts/summarize_results.py \
+python scripts/summarize_results.py \
     --results-dir "${OUTPUT_DIR}" \
     --csv "${OUTPUT_DIR}/leaderboard.csv"
 

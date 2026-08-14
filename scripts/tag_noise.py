@@ -3,7 +3,7 @@
 Tag all benchmark audio samples with SNR-based noise level.
 
 Downloads audio from HF, estimates SNR per sample using an energy-based
-percentile method, and saves noise_tags.json used by the Explorer.
+percentile method, and saves noise_tags.json, consumed by scripts/noise_analysis.py.
 
 Buckets:
     clean     → SNR > 25 dB
@@ -11,8 +11,9 @@ Buckets:
     noisy     → < 15 dB
 
 Usage:
-    uv run python scripts/tag_noise.py
-    uv run python scripts/tag_noise.py --splits telephony_revolab
+    python scripts/tag_noise.py
+    python scripts/tag_noise.py --dataset Revolab/ASR-Benchmark-Private \
+        --results-dir results/private
 """
 
 from __future__ import annotations
@@ -28,7 +29,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from asr_benchmark.utils.data import _decode_audio
 from asr_benchmark.utils.manifest import read_manifest
 
-DATASET_NAME = "Revolab/ASR-Benchmark-Private"
+DATASET_NAME = "Revolab/ASR-Benchmark-Public"
 
 
 def estimate_snr(audio: np.ndarray) -> float:

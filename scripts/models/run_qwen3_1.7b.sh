@@ -23,7 +23,7 @@ if [[ -n "${MAX_SAMPLES}" ]]; then
     OUTPUT_DIR="results/smoke"
 fi
 
-uv run python run_eval.py \
+python run_eval.py \
     --model-type qwen \
     --model-id Qwen/Qwen3-ASR-1.7B \
     --dataset "${DATASET}" \

@@ -1,4 +1,3 @@
 # Deepgram Speech-to-Text
 -r base.txt
-deepgram-sdk>=3.0.0
-soundfile>=0.12.1
+deepgram-sdk
