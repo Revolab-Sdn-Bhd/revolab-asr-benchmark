@@ -212,6 +212,13 @@ Finally, `scripts/analyze_models.py` asks an LLM to write per-model strengths an
 weaknesses, each backed by a specific benchmark sample. It needs `GEMINI_API_KEY`
 (or `--provider claude`).
 
+## TODO
+
+- **Better prompt for `gemini-3.6-flash`.** It refuses 9/820 short clips with
+  *"no audio file was provided"* instead of transcribing, inflating its WER.
+  Tune `_TRANSCRIBE_PROMPT` in `asr_benchmark/models/gemini_model.py`, then
+  re-run the model.
+
 ## Dataset
 
 820 samples in **one `train` split** — that's just the Hugging Face split name,
