@@ -17,20 +17,25 @@ python run_eval.py \
     --splits test \
     --max-samples 100
 
-# Qwen3-ASR on both splits of Revolab benchmark — model loaded once
+# Qwen3-ASR on the Revolab Malay benchmark.
+# This dataset has a single `train` split; its 12 domains are values of the
+# `category` column, so pass --metadata-columns category for the breakdown
+# (or --category telephony to score one domain).
 python run_eval.py \
     --model-type qwen \
     --model-id Qwen/Qwen3-ASR-1.7B \
-    --dataset Revolab/ASR-Benchmark-test \
-    --splits train short_inputs \
+    --dataset Revolab/ASR-Benchmark-Public \
+    --splits train \
     --text-column text \
+    --normalized-text-column normalized_text \
+    --metadata-columns category \
     --language ms \
     --no-streaming
 
 # Gemini (API model)
 GEMINI_API_KEY=xxx python run_eval.py \
     --model-type gemini \
-    --model-id gemini-1.5-flash \
+    --model-id gemini-2.5-flash \
     --dataset mozilla-foundation/common_voice_13_0 \
     --subset en \
     --splits test \
@@ -39,7 +44,7 @@ GEMINI_API_KEY=xxx python run_eval.py \
 # ElevenLabs (API model)
 ELEVENLABS_API_KEY=xxx python run_eval.py \
     --model-type elevenlabs \
-    --model-id scribe_v1 \
+    --model-id scribe_v2 \
     --dataset mozilla-foundation/common_voice_13_0 \
     --subset en \
     --splits test \

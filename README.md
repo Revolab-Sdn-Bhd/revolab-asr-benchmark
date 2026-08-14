@@ -168,8 +168,15 @@ which reference won (`ref_source`).
 | **RTFx** | audio duration ÷ transcription time. 10 = 10× faster than realtime. Includes API latency for hosted models |
 | **RareWER** | WER over reference words outside the corpus's 500 most common. Only comparable within a single summarize run, since the "common" list depends on which manifests are present |
 
-Normalisation is `BasicTextNormalizer`: strips `<tags>`, `[tags]`, `(tags)` and
-punctuation, lowercases. No number or abbreviation expansion.
+Normalisation depends on `--language`: `ms`/`id` use `MalayTextNormalizer`, `en`
+uses `EnglishTextNormalizer`, anything else falls back to `BasicTextNormalizer`.
+
+All of them strip `<tags>`, `[tags]`, `(tags)` and punctuation, and lowercase —
+with no number or abbreviation expansion. `MalayTextNormalizer` additionally
+folds common spelling variants to one canonical form (`okay/okey → ok`,
+`tu → itu`, `ni/nih → ini`, `jugak → juga`, `takde → tiada`) and splits clitics
+and particles, so a model isn't penalised for writing a valid alternative
+spelling.
 
 ## Digging into the results
 

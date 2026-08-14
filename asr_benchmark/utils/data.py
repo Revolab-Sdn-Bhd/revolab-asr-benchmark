@@ -13,7 +13,7 @@ def _decode_audio(audio_data, target_sr: int) -> tuple[np.ndarray, int]:
 
     Handles two formats:
     - Standard dict: {"array": np.ndarray, "sampling_rate": int}
-    - torchcodec AudioDecoder: used by newer HF datasets (e.g. Revolab/ASR-Benchmark-test)
+    - torchcodec AudioDecoder: used by newer HF datasets (e.g. Revolab/ASR-Benchmark-Public)
     """
     if isinstance(audio_data, dict):
         array = audio_data["array"].astype(np.float32)
