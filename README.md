@@ -171,6 +171,47 @@ which reference won (`ref_source`).
 Normalisation is `BasicTextNormalizer`: strips `<tags>`, `[tags]`, `(tags)` and
 punctuation, lowercases. No number or abbreviation expansion.
 
+## Digging into the results
+
+WER tells you *how much* a model gets wrong. These read the same manifests to
+show *what* it gets wrong — all of them take `--results-dir`:
+
+```bash
+# Where the errors are: per-category WER, worst rows, error patterns
+python scripts/error_analysis.py --model-id nova-3 --results-dir results/public
+
+# Same for every model at once, as JSON
+python scripts/error_analysis.py --all-models --results-dir results/public \
+    --json-out results/public/error_analysis.json
+
+# Which words get swapped for which
+python scripts/compute_confusion.py --results-dir results/public
+
+# WER bucketed by audio noise level, ranked by clean → noisy degradation
+python scripts/noise_analysis.py --results-dir results/public
+```
+
+`noise_analysis.py` needs per-sample SNR tags. `results/public/noise_tags.json`
+is committed, so it works out of the box; regenerate it (or tag a new dataset)
+with:
+
+```bash
+python scripts/tag_noise.py --results-dir results/public
+```
+
+Noise robustness is where the leaderboard ordering changes — a model can look
+strong on clean audio and collapse on noisy:
+
+```
+model                        clean      moderate    noisy     clean->noisy
+gemini-2.5-pro           5.15%/600    4.13%/130   8.89%/90        +3.74pp
+aisyah-1.0-flash         5.49%/600    5.68%/130  33.07%/90       +27.58pp
+```
+
+Finally, `scripts/analyze_models.py` asks an LLM to write per-model strengths and
+weaknesses, each backed by a specific benchmark sample. It needs `GEMINI_API_KEY`
+(or `--provider claude`).
+
 ## Dataset
 
 820 samples in **one `train` split** — that's just the Hugging Face split name,

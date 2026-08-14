@@ -6,4 +6,7 @@ numpy
 requests
 python-dotenv
 # datasets>=4 decodes audio through torchcodec, which also needs ffmpeg installed.
+# torchcodec imports torch at import time but does not declare it as a
+# dependency, so torch has to be listed here even for the API-only backends.
+torch
 torchcodec

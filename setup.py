@@ -22,6 +22,7 @@ setup(
         "numpy",
         "requests",
         "python-dotenv",
+        "torch",       # torchcodec imports it without declaring it
         "torchcodec",  # datasets>=4 decodes audio through it
     ],
     extras_require={
