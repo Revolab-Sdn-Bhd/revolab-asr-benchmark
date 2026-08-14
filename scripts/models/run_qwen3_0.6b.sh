@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 # Benchmark: Qwen/Qwen3-ASR-0.6B
-# Usage: bash run_qwen3_0.6b.sh [max_samples] [public|private]
+# Usage: bash scripts/models/run_qwen3_0.6b.sh [max_samples] [public|private]
 set -euo pipefail
+
+# Always run from the repo root, wherever this script was invoked from.
+cd "$(dirname "${BASH_SOURCE[0]}")/../.."
 
 MAX_SAMPLES="${1:-}"
 BENCHMARK="${2:-public}"
@@ -13,6 +16,11 @@ if [[ "${BENCHMARK}" == "private" ]]; then
 else
     DATASET="Revolab/ASR-Benchmark-Public"
     OUTPUT_DIR="results/public"
+fi
+
+# A capped run is a smoke test — keep it out of the published manifests.
+if [[ -n "${MAX_SAMPLES}" ]]; then
+    OUTPUT_DIR="results/smoke"
 fi
 
 uv run python run_eval.py \

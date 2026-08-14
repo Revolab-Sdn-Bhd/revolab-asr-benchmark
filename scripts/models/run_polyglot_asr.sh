@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-# Benchmark: Revolab/Malaysian-Qwen3-ASR-1.7B
-# Usage: bash run_malaysian_qwen3.sh [max_samples] [public|private]
+# Benchmark: knoveleng/polyglot-lion-1.7b-v1.5 (Qwen3-ASR backend)
+# Usage: bash scripts/models/run_polyglot_asr.sh [max_samples] [public|private]
 set -euo pipefail
+
+# Always run from the repo root, wherever this script was invoked from.
+cd "$(dirname "${BASH_SOURCE[0]}")/../.."
 
 MAX_SAMPLES="${1:-}"
 BENCHMARK="${2:-public}"
@@ -13,6 +16,11 @@ if [[ "${BENCHMARK}" == "private" ]]; then
 else
     DATASET="Revolab/ASR-Benchmark-Public"
     OUTPUT_DIR="results/public"
+fi
+
+# A capped run is a smoke test — keep it out of the published manifests.
+if [[ -n "${MAX_SAMPLES}" ]]; then
+    OUTPUT_DIR="results/smoke"
 fi
 
 uv run python run_eval.py \

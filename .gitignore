@@ -17,3 +17,6 @@ results/private/
 *docx
 blog/*md
 *pycache*
+
+# Smoke-test output (capped runs)
+results/smoke/

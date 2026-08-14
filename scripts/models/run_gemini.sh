@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 # Benchmark: Google Gemini (via google-genai SDK)
 # Requires: GEMINI_API_KEY in env + pip install -r requirements/gemini.txt
-# Usage: bash run_gemini.sh [model_id] [max_samples] [public|private]
+# Usage: bash scripts/models/run_gemini.sh [model_id] [max_samples] [public|private]
 #   e.g. bash run_gemini.sh gemini-2.5-flash
 #        bash run_gemini.sh gemini-2.5-pro 50 private
 set -euo pipefail
+
+# Always run from the repo root, wherever this script was invoked from.
+cd "$(dirname "${BASH_SOURCE[0]}")/../.."
 
 MODEL_ID="${1:-gemini-2.5-flash}"
 MAX_SAMPLES="${2:-}"
@@ -17,6 +20,11 @@ if [[ "${BENCHMARK}" == "private" ]]; then
 else
     DATASET="Revolab/ASR-Benchmark-Public"
     OUTPUT_DIR="results/public"
+fi
+
+# A capped run is a smoke test — keep it out of the published manifests.
+if [[ -n "${MAX_SAMPLES}" ]]; then
+    OUTPUT_DIR="results/smoke"
 fi
 
 uv run python run_eval.py \
