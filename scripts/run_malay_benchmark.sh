@@ -79,7 +79,7 @@ run_model "gemini-3.6-flash"         GEMINI_API_KEY     models/run_gemini.sh    
 run_model "scribe_v2"                ELEVENLABS_API_KEY models/run_elevenlabs.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "nova-3"                   DEEPGRAM_API_KEY   models/run_deepgram_nova3.sh              "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "universal-2"              ASSEMBLYAI_API_KEY models/run_assemblyai.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"
-run_model "universal-3"              ASSEMBLYAI_API_KEY models/run_assemblyai_universal_3.sh      "${MAX_SAMPLES}" "${BENCHMARK}"
+run_model "universal-3-pro"          ASSEMBLYAI_API_KEY models/run_assemblyai_universal_3_pro.sh  "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "universal-3-5-pro"        ASSEMBLYAI_API_KEY models/run_assemblyai_universal_3_5_pro.sh "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "ilmu-asr-v4.2"            ILMU_API_KEY       models/run_ilmu_asr.sh                    "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "qwen-audio-3.0-asr-flash" DASHSCOPE_API_KEY  models/run_qwen_audio.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Benchmark: AssemblyAI universal-3
+# Benchmark: AssemblyAI universal-3-pro
 # Requires: ASSEMBLYAI_API_KEY in .env + pip install -r requirements/assemblyai.txt
-# Usage: bash scripts/models/run_assemblyai_universal_3.sh [max_samples] [public|private]
+# Usage: bash scripts/models/run_assemblyai_universal_3_pro.sh [max_samples] [public|private]
 set -euo pipefail
 
 # Always run from the repo root, wherever this script was invoked from.
@@ -26,7 +26,7 @@ fi
 
 python run_eval.py \
     --model-type assemblyai \
-    --model-id universal-3 \
+    --model-id universal-3-pro \
     --dataset "${DATASET}" \
     --splits train \
     --text-column text \

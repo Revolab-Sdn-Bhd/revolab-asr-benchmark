@@ -1,6 +1,7 @@
-# Qwen3-ASR / Qwen2-Audio (HF transformers)
+# Qwen3-ASR (via the qwen-asr package)
 -r base.txt
 torch
 transformers
 accelerate
 librosa
+qwen-asr

@@ -243,10 +243,10 @@ Score a single domain with `--category`, e.g. `--category telephony`.
 | `qwen` | `Qwen/Qwen3-ASR-1.7B`, `Qwen/Qwen3-ASR-0.6B` | `requirements/qwen.txt` | — |
 | `gemini` | `gemini-2.5-flash`, `gemini-2.5-pro` | `requirements/gemini.txt` | `GEMINI_API_KEY` |
 | `elevenlabs` | `scribe_v2` | `requirements/elevenlabs.txt` | `ELEVENLABS_API_KEY` |
-| `assemblyai` | `universal-2`, `universal-3`, `universal-3-5-pro` | `requirements/assemblyai.txt` | `ASSEMBLYAI_API_KEY` |
+| `assemblyai` | `universal-2`, `universal-3-pro`, `universal-3-5-pro` | `requirements/assemblyai.txt` | `ASSEMBLYAI_API_KEY` |
 | `deepgram` | `nova-3` | `requirements/deepgram.txt` | `DEEPGRAM_API_KEY` |
 | `qwen-audio` | `qwen-audio-3.0-asr-flash` | none | `DASHSCOPE_API_KEY` |
-| `ilmu` | `ilmu-asr-v4.2` | none | `ILMU_API_KEY` |
+| `ilmu` | `ilmu-asr-v4.2` | `requirements/ilmu.txt` | `ILMU_API_KEY` |
 | `revolab-api` | `aisyah-1.0-flash`, `aisyah-1.0-pro` | none | `REVOLAB_API_KEY` |
 
 Copy `.env.example` to `.env` and fill in the keys you need — `run_eval.py` loads

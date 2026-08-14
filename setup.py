@@ -4,11 +4,12 @@ from setuptools import setup, find_packages
 # requirements/*.txt mirror these lists for pip -r users.
 BACKENDS = {
     "whisper": ["torch", "transformers", "accelerate"],
-    "qwen": ["torch", "transformers", "accelerate", "librosa"],
+    "qwen": ["torch", "transformers", "accelerate", "librosa", "qwen-asr"],
     "gemini": ["google-genai"],
     "elevenlabs": ["elevenlabs"],
     "deepgram": ["deepgram-sdk"],
     "assemblyai": ["assemblyai"],
+    "ilmu": ["openai"],
 }
 
 setup(
