@@ -2,7 +2,6 @@ from .base import BaseASRModel
 from .whisper_model import WhisperModel
 from .qwen_model import QwenASRModel
 from .revolab_api_model import RevolabAPIModel
-from .zipformer_model import ZipformerModel
 from .gemini_model import GeminiModel
 from .elevenlabs_model import ElevenLabsModel
 from .deepgram_model import DeepgramModel
@@ -14,7 +13,6 @@ MODEL_REGISTRY: dict[str, type[BaseASRModel]] = {
     "whisper": WhisperModel,
     "qwen": QwenASRModel,
     "revolab-api": RevolabAPIModel,
-    "zipformer": ZipformerModel,
     "gemini": GeminiModel,
     "elevenlabs": ElevenLabsModel,
     "deepgram": DeepgramModel,
@@ -28,7 +26,6 @@ __all__ = [
     "WhisperModel",
     "QwenASRModel",
     "RevolabAPIModel",
-    "ZipformerModel",
     "GeminiModel",
     "ElevenLabsModel",
     "DeepgramModel",

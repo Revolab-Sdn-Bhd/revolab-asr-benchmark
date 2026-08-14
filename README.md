@@ -144,7 +144,6 @@ To score a single domain, use `--category` (e.g. `--category telephony`).
 |---|---|---|---|
 | `whisper` | `openai/whisper-large-v3` | `requirements/whisper.txt` | — |
 | `qwen` | `Qwen/Qwen3-ASR-1.7B`, `Qwen/Qwen3-ASR-0.6B` | `requirements/qwen.txt` | — |
-| `zipformer` | see `CHECKPOINT_MAP` in `zipformer_model.py` | `requirements/zipformer.txt` | — |
 | `gemini` | `gemini-2.5-flash`, `gemini-2.5-pro` | `requirements/gemini.txt` | `GEMINI_API_KEY` |
 | `elevenlabs` | `scribe_v2` | `requirements/elevenlabs.txt` | `ELEVENLABS_API_KEY` |
 | `assemblyai` | `universal-2`, `universal-3`, `universal-3-5-pro` | `requirements/assemblyai.txt` | `ASSEMBLYAI_API_KEY` |
@@ -195,7 +194,7 @@ asr_benchmark/
   models/
     base.py              # BaseASRModel + TranscriptionResult
     whisper_model.py  qwen_model.py  gemini_model.py  elevenlabs_model.py
-    deepgram_model.py  assemblyai_model.py  zipformer_model.py  ...
+    deepgram_model.py  assemblyai_model.py  qwen_audio_model.py  ...
   normalizer/
     basic.py             # BasicTextNormalizer
     malay.py             # Malay-specific normalisation
@@ -211,7 +210,7 @@ scripts/
   summarize_results.py   # manifests → leaderboard table + CSV
   error_analysis.py  analyze_models.py  noise_analysis.py  ...
 requirements/
-  base.txt  whisper.txt  qwen.txt  zipformer.txt  gemini.txt
+  base.txt  whisper.txt  qwen.txt  gemini.txt
   elevenlabs.txt  deepgram.txt  assemblyai.txt
 ```
 

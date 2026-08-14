@@ -1,6 +1,9 @@
 # Core dependencies — always required
 datasets>=2.19.0
 soundfile>=0.12.1
+# datasets>=4 decodes audio through torchcodec, which needs ffmpeg on the system
+# and a build matching your torch/CUDA version (e.g. torchcodec 0.9.x for torch 2.9+cu128).
+torchcodec>=0.4.0
 numpy>=1.24.0
 evaluate>=0.4.0
 requests>=2.31.0

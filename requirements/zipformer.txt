@@ -1,3 +1,0 @@
--r base.txt
-sherpa-onnx>=1.10.0
-resampy>=0.4.2   # optional but recommended for audio resampling

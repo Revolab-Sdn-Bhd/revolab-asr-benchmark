@@ -20,7 +20,6 @@ OUTPUT_DIR="results"
 declare -A MODELS=(
     ["whisper"]="openai/whisper-large-v3"
     ["qwen"]="Qwen/Qwen2-Audio-7B-Instruct"
-    ["zipformer"]="zipformer-en-2023-06-21"
     ["gemini"]="gemini-1.5-flash"
     ["elevenlabs"]="scribe_v1"
 )

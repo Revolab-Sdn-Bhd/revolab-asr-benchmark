@@ -38,8 +38,7 @@ uv run python scripts/summarize_results.py \
 
 # Install model-specific dependencies
 pip install -r requirements/qwen.txt
-pip install -r requirements/zipformer.txt
-# Options: base.txt  whisper.txt  qwen.txt  zipformer.txt  gemini.txt  elevenlabs.txt
+# Options: base.txt  whisper.txt  qwen.txt  gemini.txt  elevenlabs.txt  deepgram.txt  assemblyai.txt
 ```
 
 API keys for non-local models: `export GEMINI_API_KEY=...` / `export ELEVENLABS_API_KEY=...`
@@ -72,10 +71,6 @@ Key manifest fields per record: `reference`, `reference_normalized_ours`, `refer
 ### Audio loading (`asr_benchmark/utils/data.py`)
 
 `Revolab/ASR-Benchmark-test` yields `torchcodec.AudioDecoder` objects (not standard HF `{"array": ..., "sampling_rate": ...}` dicts). `_decode_audio()` detects the type and dispatches accordingly. When adding support for new datasets, check which format the audio column uses.
-
-### Zipformer checkpoints
-
-`zipformer_model.py:CHECKPOINT_MAP` registers logical names to HF repos. Each entry **must** include a `"mode"` key: `"offline"` uses `OfflineRecognizer.from_transducer()` with a single `decode_stream()` call; `"online"` uses `OnlineRecognizer` with an `is_ready()` loop. `pruned_transducer_stateless7` models are always offline — they lack the streaming metadata that `OnlineRecognizer` requires.
 
 ### Manifest JSONL
 

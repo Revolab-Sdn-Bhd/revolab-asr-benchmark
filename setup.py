@@ -14,12 +14,11 @@ setup(
     extras_require={
         "whisper": ["torch>=2.2.0", "transformers>=4.40.0", "accelerate>=0.29.0"],
         "qwen": ["torch>=2.2.0", "transformers>=4.45.0", "accelerate>=0.29.0", "librosa>=0.10.0"],
-        "zipformer": ["sherpa-onnx>=1.10.0", "resampy>=0.4.2"],
         "gemini": ["google-generativeai>=0.7.0"],
         "elevenlabs": ["elevenlabs>=1.0.0"],
         "all": [
             "torch>=2.2.0", "transformers>=4.45.0", "accelerate>=0.29.0",
-            "librosa>=0.10.0", "sherpa-onnx>=1.10.0", "resampy>=0.4.2",
+            "librosa>=0.10.0",
             "google-generativeai>=0.7.0", "elevenlabs>=1.0.0",
         ],
     },
