@@ -17,17 +17,18 @@ Dataset: [`Revolab/ASR-Benchmark-Public`](https://huggingface.co/datasets/Revola
 | 1 | `scribe_v2` (ElevenLabs) | **4.79%** | 2.00% | 7.3 |
 | 2 | `aisyah-1.0-pro` (Revolab) | 4.89% | **1.97%** | 15.7 |
 | 3 | `gemini-2.5-pro` | 5.30% | 2.43% | 1.1 |
-| 4 | `qwen-audio-3.0-asr-flash` | 7.22% | 3.15% | 13.0 |
-| 5 | `ilmu-asr-v4.2` | 7.78% | 3.15% | 12.1 |
-| 6 | `aisyah-1.0-flash` (Revolab) | 7.98% | 3.91% | **45.6** |
-| 7 | `gemini-2.5-flash` | 9.05% | 4.66% | 1.4 |
-| 8 | `universal-2` (AssemblyAI) | 14.86% | 8.91% | 1.8 |
-| 9 | `universal-3-5-pro` (AssemblyAI) | 14.88% | 8.92% | 1.9 |
-| 10 | `gemini-3.6-flash` | 15.01% | 9.31% | 1.0 |
-| 11 | `Qwen/Qwen3-ASR-1.7B` | 15.26% | 7.28% | 21.0 |
-| 12 | `openai/whisper-large-v3` | 15.62% | 10.18% | 3.2 |
-| 13 | `Qwen/Qwen3-ASR-0.6B` | 20.73% | 8.82% | 12.8 |
-| 14 | `nova-3` (Deepgram) | 25.63% | 15.35% | 18.0 |
+| 4 | `gemini-3.5-transcribe` | 6.73% | 3.42% | 4.8 |
+| 5 | `qwen-audio-3.0-asr-flash` | 7.22% | 3.15% | 13.0 |
+| 6 | `ilmu-asr-v4.2` | 7.78% | 3.15% | 12.1 |
+| 7 | `aisyah-1.0-flash` (Revolab) | 7.98% | 3.91% | **45.6** |
+| 8 | `gemini-2.5-flash` | 9.05% | 4.66% | 1.4 |
+| 9 | `universal-2` (AssemblyAI) | 14.86% | 8.91% | 1.8 |
+| 10 | `universal-3-5-pro` (AssemblyAI) | 14.88% | 8.92% | 1.9 |
+| 11 | `gemini-3.6-flash` | 15.01% | 9.31% | 1.0 |
+| 12 | `Qwen/Qwen3-ASR-1.7B` | 15.26% | 7.28% | 21.0 |
+| 13 | `openai/whisper-large-v3` | 15.62% | 10.18% | 3.2 |
+| 14 | `Qwen/Qwen3-ASR-0.6B` | 20.73% | 8.82% | 12.8 |
+| 15 | `nova-3` (Deepgram) | 25.63% | 15.35% | 18.0 |
 
 Per-domain numbers, error breakdowns and rare-word WER come from the same command:
 
@@ -256,6 +257,7 @@ Score a single domain with `--category`, e.g. `--category telephony`.
 | `whisper` | `openai/whisper-large-v3` | `requirements/whisper.txt` | — |
 | `qwen` | `Qwen/Qwen3-ASR-1.7B`, `Qwen/Qwen3-ASR-0.6B` | `requirements/qwen.txt` | — |
 | `gemini` | `gemini-2.5-flash`, `gemini-2.5-pro` | `requirements/gemini.txt` | `GEMINI_API_KEY` |
+| `gemini-transcribe` | `gemini-3.5-transcribe` | `requirements/gemini.txt` | `GEMINI_API_KEY` |
 | `elevenlabs` | `scribe_v2` | `requirements/elevenlabs.txt` | `ELEVENLABS_API_KEY` |
 | `assemblyai` | `universal-2`, `universal-3-pro`, `universal-3-5-pro` | `requirements/assemblyai.txt` | `ASSEMBLYAI_API_KEY` |
 | `deepgram` | `nova-3` | `requirements/deepgram.txt` | `DEEPGRAM_API_KEY` |

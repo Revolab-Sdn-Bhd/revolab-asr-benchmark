@@ -145,7 +145,7 @@ the repo root first, so it can be invoked from anywhere. **A capped run writes t
 `results/smoke/` instead of `results/public/`** so smoke tests can't overwrite
 published manifests; `results/smoke/` is gitignored.
 
-`run_gemini.sh` is the exception: its first argument is `model_id`, so it takes
+`run_gemini.sh` and `run_gemini_transcribe.sh` are the exceptions: their first argument is `model_id`, so they take
 `[model_id] [max_samples] [public|private]`.
 
 `scripts/run_malay_benchmark.sh` runs every launcher. It deliberately does *not*
