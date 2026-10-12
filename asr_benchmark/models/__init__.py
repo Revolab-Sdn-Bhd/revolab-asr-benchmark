@@ -3,6 +3,7 @@ from .whisper_model import WhisperModel
 from .qwen_model import QwenASRModel
 from .revolab_api_model import RevolabAPIModel
 from .gemini_model import GeminiModel
+from .gemini_transcribe_model import GeminiTranscribeModel
 from .elevenlabs_model import ElevenLabsModel
 from .deepgram_model import DeepgramModel
 from .assemblyai_model import AssemblyAIModel
@@ -14,6 +15,7 @@ MODEL_REGISTRY: dict[str, type[BaseASRModel]] = {
     "qwen": QwenASRModel,
     "revolab-api": RevolabAPIModel,
     "gemini": GeminiModel,
+    "gemini-transcribe": GeminiTranscribeModel,
     "elevenlabs": ElevenLabsModel,
     "deepgram": DeepgramModel,
     "assemblyai": AssemblyAIModel,
@@ -27,6 +29,7 @@ __all__ = [
     "QwenASRModel",
     "RevolabAPIModel",
     "GeminiModel",
+    "GeminiTranscribeModel",
     "ElevenLabsModel",
     "DeepgramModel",
     "AssemblyAIModel",

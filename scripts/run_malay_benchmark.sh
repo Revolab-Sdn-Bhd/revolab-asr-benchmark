@@ -69,13 +69,14 @@ echo " Output:    ${OUTPUT_DIR}"
 echo "============================================================"
 
 # --- Hosted APIs -----------------------------------------------------------
-# run_gemini.sh takes [model_id] first; every other launcher takes
+# run_gemini.sh and run_gemini_transcribe.sh take [model_id] first; every other launcher takes
 # [max_samples] [public|private].
 run_model "aisyah-1.0-flash"         REVOLAB_API_KEY    models/run_revolab_aisyah_flash.sh        "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "aisyah-1.0-pro"           REVOLAB_API_KEY    models/run_revolab_aisyah_pro.sh          "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "gemini-2.5-flash"         GEMINI_API_KEY     models/run_gemini.sh     gemini-2.5-flash "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "gemini-2.5-pro"           GEMINI_API_KEY     models/run_gemini.sh     gemini-2.5-pro   "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "gemini-3.6-flash"         GEMINI_API_KEY     models/run_gemini.sh     gemini-3.6-flash "${MAX_SAMPLES}" "${BENCHMARK}"
+run_model "gemini-3.5-transcribe"    GEMINI_API_KEY     models/run_gemini_transcribe.sh gemini-3.5-transcribe "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "scribe_v2"                ELEVENLABS_API_KEY models/run_elevenlabs.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "nova-3"                   DEEPGRAM_API_KEY   models/run_deepgram_nova3.sh              "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "universal-2"              ASSEMBLYAI_API_KEY models/run_assemblyai.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"
