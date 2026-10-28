@@ -5,6 +5,7 @@ from .revolab_api_model import RevolabAPIModel
 from .gemini_model import GeminiModel
 from .gemini_transcribe_model import GeminiTranscribeModel
 from .elevenlabs_model import ElevenLabsModel
+from .fish_audio_model import FishAudioModel
 from .deepgram_model import DeepgramModel
 from .assemblyai_model import AssemblyAIModel
 from .ilmu_model import IlmuModel
@@ -17,6 +18,7 @@ MODEL_REGISTRY: dict[str, type[BaseASRModel]] = {
     "gemini": GeminiModel,
     "gemini-transcribe": GeminiTranscribeModel,
     "elevenlabs": ElevenLabsModel,
+    "fish-audio": FishAudioModel,
     "deepgram": DeepgramModel,
     "assemblyai": AssemblyAIModel,
     "ilmu": IlmuModel,
@@ -31,6 +33,7 @@ __all__ = [
     "GeminiModel",
     "GeminiTranscribeModel",
     "ElevenLabsModel",
+    "FishAudioModel",
     "DeepgramModel",
     "AssemblyAIModel",
     "IlmuModel",
