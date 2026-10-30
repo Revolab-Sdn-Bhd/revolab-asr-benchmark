@@ -1,3 +1,6 @@
 # ElevenLabs Scribe
 -r base.txt
 elevenlabs
+# scribe_v2_realtime (streaming)
+websockets
+librosa
