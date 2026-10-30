@@ -269,6 +269,8 @@ class Evaluator:
                 for k, v in meta.items():
                     if k != dcfg.normalized_text_column:
                         record[k] = v
+                # Model-specific extras (e.g. streaming latency)
+                record.update(result.metadata)
                 records.append(record)
             audio_batch.clear(); sr_batch.clear(); dur_batch.clear()
             ref_batch.clear(); meta_batch.clear()

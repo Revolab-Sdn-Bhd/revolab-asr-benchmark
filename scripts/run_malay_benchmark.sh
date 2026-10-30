@@ -78,6 +78,7 @@ run_model "gemini-2.5-pro"           GEMINI_API_KEY     models/run_gemini.sh    
 run_model "gemini-3.6-flash"         GEMINI_API_KEY     models/run_gemini.sh     gemini-3.6-flash "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "gemini-3.5-transcribe"    GEMINI_API_KEY     models/run_gemini_transcribe.sh gemini-3.5-transcribe "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "scribe_v2"                ELEVENLABS_API_KEY models/run_elevenlabs.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"
+run_model "scribe_v2_realtime"       ELEVENLABS_API_KEY models/run_elevenlabs_realtime.sh         "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "transcribe-1-pro"         FISH_API_KEY       models/run_fish_audio.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "nova-3"                   DEEPGRAM_API_KEY   models/run_deepgram_nova3.sh              "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "universal-2"              ASSEMBLYAI_API_KEY models/run_assemblyai.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"

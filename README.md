@@ -22,14 +22,15 @@ Dataset: [`Revolab/ASR-Benchmark-Public`](https://huggingface.co/datasets/Revola
 | 6 | `ilmu-asr-v4.2` | 7.78% | 3.15% | 12.1 |
 | 7 | `aisyah-1.0-flash` (Revolab) | 7.98% | 3.91% | **45.6** |
 | 8 | `gemini-2.5-flash` | 9.05% | 4.66% | 1.4 |
-| 9 | `transcribe-1-pro` (Fish Audio) | 13.90% | 6.35% | 23.4 |
-| 10 | `universal-2` (AssemblyAI) | 14.86% | 8.91% | 1.8 |
-| 11 | `universal-3-5-pro` (AssemblyAI) | 14.88% | 8.92% | 1.9 |
-| 12 | `gemini-3.6-flash` | 15.01% | 9.31% | 1.0 |
-| 13 | `Qwen/Qwen3-ASR-1.7B` | 15.26% | 7.28% | 21.0 |
-| 14 | `openai/whisper-large-v3` | 15.62% | 10.18% | 3.2 |
-| 15 | `Qwen/Qwen3-ASR-0.6B` | 20.73% | 8.82% | 12.8 |
-| 16 | `nova-3` (Deepgram) | 25.63% | 15.35% | 18.0 |
+| 9 | `scribe_v2_realtime` (ElevenLabs, streaming) | 10.76% | 5.07% | 0.9 |
+| 10 | `transcribe-1-pro` (Fish Audio) | 13.90% | 6.35% | 23.4 |
+| 11 | `universal-2` (AssemblyAI) | 14.86% | 8.91% | 1.8 |
+| 12 | `universal-3-5-pro` (AssemblyAI) | 14.88% | 8.92% | 1.9 |
+| 13 | `gemini-3.6-flash` | 15.01% | 9.31% | 1.0 |
+| 14 | `Qwen/Qwen3-ASR-1.7B` | 15.26% | 7.28% | 21.0 |
+| 15 | `openai/whisper-large-v3` | 15.62% | 10.18% | 3.2 |
+| 16 | `Qwen/Qwen3-ASR-0.6B` | 20.73% | 8.82% | 12.8 |
+| 17 | `nova-3` (Deepgram) | 25.63% | 15.35% | 18.0 |
 
 Per-domain numbers, error breakdowns and rare-word WER come from the same command:
 
@@ -260,6 +261,7 @@ Score a single domain with `--category`, e.g. `--category telephony`.
 | `gemini` | `gemini-2.5-flash`, `gemini-2.5-pro` | `requirements/gemini.txt` | `GEMINI_API_KEY` |
 | `gemini-transcribe` | `gemini-3.5-transcribe` | `requirements/gemini.txt` | `GEMINI_API_KEY` |
 | `elevenlabs` | `scribe_v2` | `requirements/elevenlabs.txt` | `ELEVENLABS_API_KEY` |
+| `elevenlabs-realtime` | `scribe_v2_realtime` | `requirements/elevenlabs.txt` | `ELEVENLABS_API_KEY` |
 | `fish-audio` | `transcribe-1-pro` | none | `FISH_API_KEY` |
 | `assemblyai` | `universal-2`, `universal-3-pro`, `universal-3-5-pro` | `requirements/assemblyai.txt` | `ASSEMBLYAI_API_KEY` |
 | `deepgram` | `nova-3` | `requirements/deepgram.txt` | `DEEPGRAM_API_KEY` |
