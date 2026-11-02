@@ -29,8 +29,9 @@ Dataset: [`Revolab/ASR-Benchmark-Public`](https://huggingface.co/datasets/Revola
 | 13 | `gemini-3.6-flash` | 15.01% | 9.31% | 1.0 |
 | 14 | `Qwen/Qwen3-ASR-1.7B` | 15.26% | 7.28% | 21.0 |
 | 15 | `openai/whisper-large-v3` | 15.62% | 10.18% | 3.2 |
-| 16 | `Qwen/Qwen3-ASR-0.6B` | 20.73% | 8.82% | 12.8 |
-| 17 | `nova-3` (Deepgram) | 25.63% | 15.35% | 18.0 |
+| 16 | `inworld/inworld-stt-1` (Inworld) | 18.72% | 9.88% | 13.3 |
+| 17 | `Qwen/Qwen3-ASR-0.6B` | 20.73% | 8.82% | 12.8 |
+| 18 | `nova-3` (Deepgram) | 25.63% | 15.35% | 18.0 |
 
 Per-domain numbers, error breakdowns and rare-word WER come from the same command:
 
@@ -263,6 +264,7 @@ Score a single domain with `--category`, e.g. `--category telephony`.
 | `elevenlabs` | `scribe_v2` | `requirements/elevenlabs.txt` | `ELEVENLABS_API_KEY` |
 | `elevenlabs-realtime` | `scribe_v2_realtime` | `requirements/elevenlabs.txt` | `ELEVENLABS_API_KEY` |
 | `fish-audio` | `transcribe-1-pro` | none | `FISH_API_KEY` |
+| `inworld` | `inworld/inworld-stt-1` | none | `INWORLD_API_KEY` |
 | `assemblyai` | `universal-2`, `universal-3-pro`, `universal-3-5-pro` | `requirements/assemblyai.txt` | `ASSEMBLYAI_API_KEY` |
 | `deepgram` | `nova-3` | `requirements/deepgram.txt` | `DEEPGRAM_API_KEY` |
 | `qwen-audio` | `qwen-audio-3.0-asr-flash` | none | `DASHSCOPE_API_KEY` |

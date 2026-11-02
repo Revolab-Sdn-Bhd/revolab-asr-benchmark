@@ -80,6 +80,7 @@ run_model "gemini-3.5-transcribe"    GEMINI_API_KEY     models/run_gemini_transc
 run_model "scribe_v2"                ELEVENLABS_API_KEY models/run_elevenlabs.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "scribe_v2_realtime"       ELEVENLABS_API_KEY models/run_elevenlabs_realtime.sh         "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "transcribe-1-pro"         FISH_API_KEY       models/run_fish_audio.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"
+run_model "inworld-stt-1"            INWORLD_API_KEY    models/run_inworld.sh                     "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "nova-3"                   DEEPGRAM_API_KEY   models/run_deepgram_nova3.sh              "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "universal-2"              ASSEMBLYAI_API_KEY models/run_assemblyai.sh                  "${MAX_SAMPLES}" "${BENCHMARK}"
 run_model "universal-3-pro"          ASSEMBLYAI_API_KEY models/run_assemblyai_universal_3_pro.sh  "${MAX_SAMPLES}" "${BENCHMARK}"

@@ -7,6 +7,7 @@ from .gemini_transcribe_model import GeminiTranscribeModel
 from .elevenlabs_model import ElevenLabsModel
 from .elevenlabs_realtime_model import ElevenLabsRealtimeModel
 from .fish_audio_model import FishAudioModel
+from .inworld_model import InworldModel
 from .deepgram_model import DeepgramModel
 from .assemblyai_model import AssemblyAIModel
 from .ilmu_model import IlmuModel
@@ -21,6 +22,7 @@ MODEL_REGISTRY: dict[str, type[BaseASRModel]] = {
     "elevenlabs": ElevenLabsModel,
     "elevenlabs-realtime": ElevenLabsRealtimeModel,
     "fish-audio": FishAudioModel,
+    "inworld": InworldModel,
     "deepgram": DeepgramModel,
     "assemblyai": AssemblyAIModel,
     "ilmu": IlmuModel,
@@ -37,6 +39,7 @@ __all__ = [
     "ElevenLabsModel",
     "ElevenLabsRealtimeModel",
     "FishAudioModel",
+    "InworldModel",
     "DeepgramModel",
     "AssemblyAIModel",
     "IlmuModel",
